@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 4 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.AddCustomer_Grid_Test" hash-for-method="addCustomer">addCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.AddCustomer_Test" hash-for-method="addCustomer">addCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.Practice_Automation_ToolsQA_Test" hash-for-method="automationPractice">automationPractice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="tests.Google_Search_Test" hash-for-method="searchGoogle">searchGoogle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="runnerPackage.TestRunner" hash-for-method="run_cukes">run_cukes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.AddCustomer_Grid_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomer">
+                  </a> <!-- addCustomer -->
+                  <span class="method-name">addCustomer</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;LAPTOP-KFKBTHVD&apos;, ip: &apos;192.168.0.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
+	at tests.AddCustomer_Grid_Test.addCustomer(AddCustomer_Grid_Test.java:70)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.0.23:4445 [/192.168.0.23] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	... 38 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 53 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.Google_Search_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchGoogle">
+                  </a> <!-- searchGoogle -->
+                  <span class="method-name">searchGoogle</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;LAPTOP-KFKBTHVD&apos;, ip: &apos;192.168.0.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=7092, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: f52fa2bf-564f-4e4d-a943-7d44a3b54c2e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)
+	at tests.Google_Search_Test.searchGoogle(Google_Search_Test.java:25)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.AddCustomer_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomer">
+                  </a> <!-- addCustomer -->
+                  <span class="method-name">addCustomer</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;LAPTOP-KFKBTHVD&apos;, ip: &apos;192.168.0.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIABGGvUoAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXS2/jNhC+91cUPrVATCeb7mV7cpMsUCBoinWD7I2gqZHFmCJZDunHv+9QsuKHZMneW0+mqeFj5vvmm2FE8Nx5yH8Zzb1d0z+GIodqrMyClUKvhQcGRsw1ZKObn3OhEX79/ae4X5mJQDbO+pCWFCB0KOr/jIxWSg6sb04uQDvwU+eQpWO3OMUly62XcPE6Aysa0TIUK/jHPipc0tpRgE2YSFzdCOe0kiIoayabcYmwkaCPZtszm3F7bmUyVuLugyrFAibOLHajdweLm+rIIpS6HjktlDnaosS19dnxSaUeHbtoIJDVkhUhOOYKhcV2nD47gTjWYBahIP8+ff7cHRkPIqOfDALIANlX5TFMCSapU0iDj6dI2pIg33BZeFsCR+mVC9xHw4Mq05L72+6DgpgjI6aYF/OgLQ4Altm10VZQCIWhgBHnCrt+K8DMiEiJRN3LHV3KBUyH8dJmQg/QElbBWo0MvCcSWYNWHzKx7T6qhbGGolZCOQc/q/5ivy8IiIQdBktp4gEjxS2ni3LpBRbXE9c6MF9Vhc//l7aNg1qZ2iNOm4E3Qie2Xq0eeeLtt2i6o7mGeeYVhY8LKYH4Gg1Bi8R3LsEH7IT6g4oKycctZE93t7O/LKVGivxv3cY0lb2YN2WIwHh3yxQdZF+/PSesxNzG8GWuhVmO2klVO8SF1vwdeYq/S6HrvtvGKeIT2bJ1oQJohYE2+Dcqf47qiedLFdhOLpq0IucS2XsDoAUBQxnen0uYEjM6VpAsONqbr0HLJBHRJ0hHZ/D/SPTcahKiZ/KkTYBEDVPlEIuO2ADMEA759pVMri440aXznnp9ARm9CluilQYaMQxeycCtVwtluLNE7G1/4hpYkwixnfM90B9dtN6ZpclZnJeqEo6/q8lpxdzLCmznNr0ef2jVDsWEIFme0fJ90pKb64rsbdBsnpMdjEVdrbVd8/mWZ5CLqEO3uDZhl+h2ZLuySpDNW3OdjnVtHvVSuskZSjDS++C3rK4vlf2nIduLGpqWBzLVxlToHq0Z8P7p9XnK7pnYE6Md0nexEnWN7i1rp/A3SdzP3bbPHt6rNqL3kDo10vb9MTpAS8SQOrVkPJNEvKSKd7fnRL7elRuqPSvgVDbNgMQf9CYvxOrB68y1lctKdC8CGUF4WewoN8SHktUJxbJYuotA++BQppIajh6+TN5I4mdOSJjMCBujYjlJVs9khZMTFCk/L8qGI9pZirNXWXfhaMnnqW7ed7ewdQ6MG+EgMoY40FvtbM+I4q5XHW5SDxoErPqzfYNA4hmrKtP28yByiaDdlzjIQFtX9KqX/dM81O3mZdA28pBbGXG4D06e70o7r3Q6IxjMgqe9fqDxnmrqkqhvJ/HTMERhpJ5VM1mAXD7WYv9H/eX6voGJLFMpZmKgina+TH/0RartYpEmd++B3rp5IAqVxylEJDtzpRP/jVoUQZ/pFA6WNidele0NQKIG5+n703ntOqfvvMlj6vlDXXBG6Unj4STA+4YzvYAoL+kdM9Bx7tVP5xhd3Xvte8H/AFBLBwjp04ybgAQAAFgQAABQSwECFAAUAAgICAARhr1K6dOMm4AEAABYEAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAAC1BAAAAAA=}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=10232, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 1e05ae19-b6d2-4f82-840e-501f0f3e7f8f
+*** Element info: {Using=xpath, value=//a[contains(@href,&apos;addcustomerpage.php&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at pages_Repository.AddCustomer_Repo.clickNewCustomerLink(AddCustomer_Repo.java:59)
+	at tests.AddCustomer_Test.addCustomer(AddCustomer_Test.java:95)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.Practice_Automation_ToolsQA_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="automationPractice">
+                  </a> <!-- automationPractice -->
+                  <span class="method-name">automationPractice</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;LAPTOP-KFKBTHVD&apos;, ip: &apos;192.168.0.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIABqGvUoAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXS2/jNhC+91cUPrVATCeb7mV7cpMsUCBoinWD7I2gqZHFmCJZDunHv+9QsuKHZMneW0+mqeFj5vvmm2FE8Nx5yH8Zzb1d0z+GIodqrMyClUKvhQcGRsw1ZKObn3OhEX79/ae4X5mJQDbO+pCWFCB0KOr/jIxWSg6sb04uQDvwU+eQpWO3OMUly62XcPE6Aysa0TIUK/jHPipc0tpRgE2YSFzdCOe0kiIoayabcYmwkaCPZtszm3F7bmUyVuLugyrFAibOLHajdweLm+rIIpS6HjktlDnaosS19dnxSaUeHbtoIJDVkhUhOOYKhcV2nD47gTjWYBahIP8+ff7cHRkPIqOfDALIANlX5TFMCSapU0iDj6dI2pIg33BZeFsCR+mVC9xHw4Mq05L72+6DgpgjI6aYF/OgLQ4Altm10VZQCIWhgBHnCrt+K8DMiEiJRN3LHV3KBUyH8dJmQg/QElbBWo0MvCcSWYNWHzKx7T6qhbGGolZCOQc/q/5ivy8IiIQdBktp4gEjxS2ni3LpBRbXE9c6MF9Vhc//l7aNg1qZ2iNOm4E3Qie2Xq0eeeLtt2i6o7mGeeYVhY8LKYH4Gg1Bi8R3LsEH7IT6g4oKycctZE93t7O/LKVGivxv3cY0lb2YN2WIwHh3yxQdZF+/PSesxNzG8GWuhVmO2klVO8SF1vwdeYq/S6HrvtvGKeIT2bJ1oQJohYE2+Dcqf47qiedLFdhOLpq0IucS2XsDoAUBQxnen0uYEjM6VpAsONqbr0HLJBHRJ0hHZ/D/SPTcahKiZ/KkTYBEDVPlEIuO2ADMEA759pVMri440aXznnp9ARm9CluilQYaMQxeycCtVwtluLNE7G1/4hpYkwixnfM90B9dtN6ZpclZnJeqEo6/q8lpxdzLCmznNr0ef2jVDsWEIFme0fJ90pKb64rsbdBsnpMdjEVdrbVd8/mWZ5CLqEO3uDZhl+h2ZLuySpDNW3OdjnVtHvVSuskZSjDS++C3rK4vlf2nIduLGpqWBzLVxlToHq0Z8P7p9XnK7pnYE6Md0nexEnWN7i1rp/A3SdzP3bbPHt6rNqL3kDo10vb9MTpAS8SQOrVkPJNEvKSKd7fnRL7elRuqPSvgVDbNgMQf9CYvxOrB68y1lctKdC8CGUF4WewoN8SHktUJxbJYuotA++BQppIajh6+TN5I4mdOSJjMCBujYjlJVs9khZMTFCk/L8qGI9pZirNXWXfhaMnnqW7ed7ewdQ6MG+EgMoY40FvtbM+I4q5XHW5SDxoErPqzfYNA4hmrKtP28yByiaDdlzjIQFtX9KqX/dM81O3mZdA28pBbGXG4D06e70o7r3Q6IxjMgqe9fqDxnmrqkqhvJ/HTMERhpJ5VM1mAXD7WYv9H/eX6voGJLFMpZmKgina+TH/0RartYpEmd++B3rp5IAqVxylEJDtzpRP/jVoUQZ/pFA6WNidele0NQKIG5+n703ntOqfvvMlj6vlDXXBG6Unj4STA+4YzvYAoL+kdM9Bx7tVP5xhd3Xvte8H/AFBLBwjp04ybgAQAAFgQAABQSwECFAAUAAgICAAahr1K6dOMm4AEAABYEAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAAC1BAAAAAA=}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=6816, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 99a12ec5-1dc1-4778-8121-ebed5af84a91
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:162)
+	at tests.Practice_Automation_ToolsQA_Test.automationPractice(Practice_Automation_ToolsQA_Test.java:59)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runnerPackage.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run_cukes">
+                  </a> <!-- run_cukes -->
+                  <span class="method-name">run_cukes</span>
+                  <em>
+(Runs Cucumber Features)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runnerPackage.TestRunner&quot;/&gt;
+      &lt;class name=&quot;runnerPackage.TestRunner2&quot;/&gt;
+      &lt;class name=&quot;tests.AddCustomer_Grid_Test&quot;/&gt;
+      &lt;class name=&quot;tests.AddCustomer_Test&quot;/&gt;
+      &lt;class name=&quot;tests.Google_Search_Test&quot;/&gt;
+      &lt;class name=&quot;tests.Path_Test&quot;/&gt;
+      &lt;class name=&quot;tests.Practice_Automation_ToolsQA_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">run_cukes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'run_cukes')
+data.setCell(0, 2, 'runnerPackage.TestRunner')
+data.setCell(0, 3, 114980);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addCustomer')
+data.setCell(1, 2, 'tests.AddCustomer_Test')
+data.setCell(1, 3, 12566);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchGoogle')
+data.setCell(2, 2, 'tests.Google_Search_Test')
+data.setCell(2, 3, 4217);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'automationPractice')
+data.setCell(3, 2, 'tests.Practice_Automation_ToolsQA_Test')
+data.setCell(3, 3, 3683);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addCustomer')
+data.setCell(4, 2, 'tests.AddCustomer_Grid_Test')
+data.setCell(4, 3, 1025);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">run_cukes</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "featureFile">Feature File: PA.feature</div></span>
+                <span class="reporter-method-output"><div "feature">Feature: Title of your feature</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: Practice Automation</div></span>
+                <span class="reporter-method-output"><div "result">Given  Login (passed : 112s)</div></span>
+                <span class="reporter-method-output"><div "result">When  performOnPage (passed : 2s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runnerPackage.TestRunner</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">run_cukes</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddCustomer_Grid_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addCustomer</span>
+                <span class="method-start">114981 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddCustomer_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addCustomer</span>
+                <span class="method-start">116032 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Google_Search_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchGoogle</span>
+                <span class="method-start">128601 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Practice_Automation_ToolsQA_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">automationPractice</span>
+                <span class="method-start">132820 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

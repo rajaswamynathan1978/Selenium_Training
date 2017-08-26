@@ -1,0 +1,186 @@
+15/01/2017 11:42:39 appLog FirstName Nayantharais set to Customer Name
+15/01/2017 11:42:39 appLog LastName fis set to Customer Name
+15/01/2017 11:42:39 appLog Value Male is set to Sex
+15/01/2017 11:47:34 appLog FirstName Nayantharais set to Customer Name
+15/01/2017 11:47:34 appLog LastName fis set to Customer Name
+15/01/2017 11:47:34 appLog Value Male is set to Sex
+15/01/2017 11:51:38 appLog Before navigating to: 'http://demo.guru99.com/v4/'
+15/01/2017 11:51:39 appLog Navigated to:'http://demo.guru99.com/v4/'
+15/01/2017 11:51:39 appLog Trying to find Element By : By.name: firstname
+15/01/2017 11:52:16 appLog Before navigating to: 'http://demo.guru99.com/v4/'
+15/01/2017 11:52:16 appLog Navigated to:'http://demo.guru99.com/v4/'
+15/01/2017 11:52:17 appLog Trying to find Element By : By.name: firstname
+15/01/2017 11:52:50 appLog Before navigating to: 'http://toolsqa.wpengine.com/automation-practice-form/'
+15/01/2017 11:52:52 appLog Navigated to:'http://toolsqa.wpengine.com/automation-practice-form/'
+15/01/2017 11:52:53 appLog Trying to find Element By : By.name: firstname
+15/01/2017 11:52:53 appLog Found Element By : By.name: firstname
+15/01/2017 11:52:53 appLog Value of the:[[FirefoxDriver: firefox on XP (3cfcf54e-6c56-4e46-9df1-5af25459d212)] -> name: firstname] before any changes made
+15/01/2017 11:52:53 appLog Element value changed to: [[FirefoxDriver: firefox on XP (3cfcf54e-6c56-4e46-9df1-5af25459d212)] -> name: firstname]
+15/01/2017 11:52:53 appLog FirstName Nayantharais set to Customer Name
+15/01/2017 11:52:53 appLog Trying to find Element By : By.name: lastname
+15/01/2017 11:52:53 appLog Found Element By : By.name: lastname
+15/01/2017 11:52:53 appLog Value of the:[[FirefoxDriver: firefox on XP (3cfcf54e-6c56-4e46-9df1-5af25459d212)] -> name: lastname] before any changes made
+15/01/2017 11:52:53 appLog Element value changed to: [[FirefoxDriver: firefox on XP (3cfcf54e-6c56-4e46-9df1-5af25459d212)] -> name: lastname]
+15/01/2017 11:52:53 appLog LastName fis set to Customer Name
+15/01/2017 11:52:53 appLog Trying to find Element By : By.id: sex-1
+15/01/2017 11:52:53 appLog Found Element By : By.id: sex-1
+15/01/2017 11:52:53 appLog Trying to click on: [[FirefoxDriver: firefox on XP (3cfcf54e-6c56-4e46-9df1-5af25459d212)] -> id: sex-1]
+15/01/2017 11:52:53 appLog Clicked on: [[FirefoxDriver: firefox on XP (3cfcf54e-6c56-4e46-9df1-5af25459d212)] -> id: sex-1]
+15/01/2017 11:52:53 appLog Value Male is set to Sex
+15/01/2017 11:52:53 appLog Trying to find Element By : By.xpath: //input[@value='Selaiyur']
+15/01/2017 11:55:05 appLog Before navigating to: 'http://toolsqa.wpengine.com/automation-practice-form/'
+15/01/2017 11:55:08 appLog Navigated to:'http://toolsqa.wpengine.com/automation-practice-form/'
+15/01/2017 11:55:08 appLog Trying to find Element By : By.name: firstname
+15/01/2017 11:55:09 appLog Found Element By : By.name: firstname
+15/01/2017 11:55:09 appLog Value of the:[[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> name: firstname] before any changes made
+15/01/2017 11:55:09 appLog Element value changed to: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> name: firstname]
+15/01/2017 11:55:09 appLog FirstName Rajais set to Customer Name
+15/01/2017 11:55:09 appLog Trying to find Element By : By.name: lastname
+15/01/2017 11:55:09 appLog Found Element By : By.name: lastname
+15/01/2017 11:55:09 appLog Value of the:[[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> name: lastname] before any changes made
+15/01/2017 11:55:09 appLog Element value changed to: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> name: lastname]
+15/01/2017 11:55:09 appLog LastName Sis set to Customer Name
+15/01/2017 11:55:09 appLog Trying to find Element By : By.id: sex-1
+15/01/2017 11:55:09 appLog Found Element By : By.id: sex-1
+15/01/2017 11:55:09 appLog Trying to click on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: sex-1]
+15/01/2017 11:55:09 appLog Clicked on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: sex-1]
+15/01/2017 11:55:09 appLog Value Male is set to Sex
+15/01/2017 11:55:09 appLog Trying to find Element By : By.xpath: //input[@value='5']
+15/01/2017 11:55:09 appLog Found Element By : By.xpath: //input[@value='5']
+15/01/2017 11:55:09 appLog Trying to click on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> xpath: //input[@value='5']]
+15/01/2017 11:55:09 appLog Clicked on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> xpath: //input[@value='5']]
+15/01/2017 11:55:09 appLog Years Of Expericen 5is set
+15/01/2017 11:55:09 appLog Trying to find Element By : By.id: datepicker
+15/01/2017 11:55:09 appLog Found Element By : By.id: datepicker
+15/01/2017 11:55:09 appLog Value of the:[[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: datepicker] before any changes made
+15/01/2017 11:55:09 appLog Element value changed to: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: datepicker]
+15/01/2017 11:55:09 appLog Date 10/10/1990is set to Date
+15/01/2017 11:55:09 appLog Trying to find Element By : By.id: profession-1
+15/01/2017 11:55:09 appLog Found Element By : By.id: profession-1
+15/01/2017 11:55:09 appLog Trying to click on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: profession-1]
+15/01/2017 11:55:09 appLog Clicked on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: profession-1]
+15/01/2017 11:55:09 appLog Profession Automation Testeris selected
+15/01/2017 11:55:09 appLog Trying to find Element By : By.id: photo
+15/01/2017 11:55:09 appLog Found Element By : By.id: photo
+15/01/2017 11:55:09 appLog Trying to click on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: photo]
+15/01/2017 11:55:09 appLog Clicked on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: photo]
+15/01/2017 11:55:09 appLog File Upload is success
+15/01/2017 11:55:09 appLog Trying to find Element By : By.linkText: Test File to Download
+15/01/2017 11:55:09 appLog Found Element By : By.linkText: Test File to Download
+15/01/2017 11:55:09 appLog Trying to click on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> link text: Test File to Download]
+15/01/2017 11:55:09 appLog Clicked on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> link text: Test File to Download]
+15/01/2017 11:55:09 appLog File DownLoad is success
+15/01/2017 11:55:09 appLog Trying to find Element By : By.id: tool-1
+15/01/2017 11:55:09 appLog Found Element By : By.id: tool-1
+15/01/2017 11:55:09 appLog Trying to click on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: tool-1]
+15/01/2017 11:55:09 appLog Clicked on: [[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: tool-1]
+15/01/2017 11:55:09 appLog Selenium IDE is selected 
+15/01/2017 11:55:09 appLog Trying to find Element By : By.id: continents
+15/01/2017 11:55:09 appLog Found Element By : By.id: continents
+15/01/2017 11:55:09 appLog Trying to find Element By : By.tagName: option
+15/01/2017 11:55:10 appLog Found Element By : By.tagName: option
+15/01/2017 11:55:10 appLog Trying to click on: [[[[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: continents]] -> tag name: option]
+15/01/2017 11:55:10 appLog Clicked on: [[[[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: continents]] -> tag name: option]
+15/01/2017 11:55:10 appLog Value North America is selected 
+15/01/2017 11:55:10 appLog Trying to find Element By : By.id: selenium_commands
+15/01/2017 11:55:10 appLog Found Element By : By.id: selenium_commands
+15/01/2017 11:55:10 appLog Trying to find Element By : By.tagName: option
+15/01/2017 11:55:10 appLog Found Element By : By.tagName: option
+15/01/2017 11:55:10 appLog Trying to click on: [[[[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: selenium_commands]] -> tag name: option]
+15/01/2017 11:55:10 appLog Clicked on: [[[[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: selenium_commands]] -> tag name: option]
+15/01/2017 11:55:10 appLog Trying to find Element By : By.tagName: option
+15/01/2017 11:55:10 appLog Found Element By : By.tagName: option
+15/01/2017 11:55:10 appLog Trying to click on: [[[[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: selenium_commands]] -> tag name: option]
+15/01/2017 11:55:10 appLog Clicked on: [[[[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: selenium_commands]] -> tag name: option]
+15/01/2017 11:55:10 appLog Trying to find Element By : By.tagName: option
+15/01/2017 11:55:10 appLog Found Element By : By.tagName: option
+15/01/2017 11:55:10 appLog Trying to click on: [[[[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: selenium_commands]] -> tag name: option]
+15/01/2017 11:55:10 appLog Clicked on: [[[[FirefoxDriver: firefox on XP (4470fc7f-8bd1-41d2-a4c4-fde9b83ab40e)] -> id: selenium_commands]] -> tag name: option]
+15/01/2017 11:55:10 appLog Success is updated into Excel Successfully
+21/05/2017 11:26:45 appLog Before navigating to: 'http://demo.guru99.com/v4/'
+21/05/2017 11:26:46 appLog Navigated to:'http://demo.guru99.com/v4/'
+21/05/2017 11:26:46 appLog Trying to find Element By : By.name: uid
+21/05/2017 11:26:46 appLog Found Element By : By.name: uid
+21/05/2017 11:26:46 appLog Value of the:[[FirefoxDriver: firefox on XP (747edfeb-8cf5-4240-a0a0-7762b96fd822)] -> name: uid] before any changes made
+21/05/2017 11:26:46 appLog Element value changed to: [[FirefoxDriver: firefox on XP (747edfeb-8cf5-4240-a0a0-7762b96fd822)] -> name: uid]
+21/05/2017 11:26:46 appLog mngr57247 is entered
+21/05/2017 11:26:46 appLog Trying to find Element By : By.name: password
+21/05/2017 11:26:46 appLog Found Element By : By.name: password
+21/05/2017 11:26:46 appLog Value of the:[[FirefoxDriver: firefox on XP (747edfeb-8cf5-4240-a0a0-7762b96fd822)] -> name: password] before any changes made
+21/05/2017 11:26:46 appLog Element value changed to: [[FirefoxDriver: firefox on XP (747edfeb-8cf5-4240-a0a0-7762b96fd822)] -> name: password]
+21/05/2017 11:26:46 appLog gEtyses is entered
+21/05/2017 11:26:46 appLog Trying to find Element By : By.name: btnLogin
+21/05/2017 11:26:46 appLog Found Element By : By.name: btnLogin
+21/05/2017 11:26:46 appLog Trying to click on: [[FirefoxDriver: firefox on XP (747edfeb-8cf5-4240-a0a0-7762b96fd822)] -> name: btnLogin]
+21/05/2017 11:26:46 appLog Clicked on: [[FirefoxDriver: firefox on XP (747edfeb-8cf5-4240-a0a0-7762b96fd822)] -> name: btnLogin]
+21/05/2017 11:26:46 appLog Submit is clicked
+21/05/2017 11:26:52 appLog Trying to find Element By : By.xpath: //a[contains(@href,'addcustomerpage.php')]
+21/05/2017 11:27:58 appLog Before navigating to: 'http://toolsqa.wpengine.com/automation-practice-form/'
+21/05/2017 11:28:01 appLog Navigated to:'http://toolsqa.wpengine.com/automation-practice-form/'
+21/05/2017 11:28:02 appLog Trying to find Element By : By.name: firstname
+21/05/2017 11:28:02 appLog Found Element By : By.name: firstname
+21/05/2017 11:28:02 appLog Value of the:[[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> name: firstname] before any changes made
+21/05/2017 11:28:02 appLog Element value changed to: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> name: firstname]
+21/05/2017 11:28:02 appLog FirstName Rajais set to Customer Name
+21/05/2017 11:28:02 appLog Trying to find Element By : By.name: lastname
+21/05/2017 11:28:02 appLog Found Element By : By.name: lastname
+21/05/2017 11:28:02 appLog Value of the:[[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> name: lastname] before any changes made
+21/05/2017 11:28:02 appLog Element value changed to: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> name: lastname]
+21/05/2017 11:28:02 appLog LastName Sis set to Customer Name
+21/05/2017 11:28:02 appLog Trying to find Element By : By.id: sex-1
+21/05/2017 11:28:02 appLog Found Element By : By.id: sex-1
+21/05/2017 11:28:02 appLog Trying to click on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: sex-1]
+21/05/2017 11:28:02 appLog Clicked on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: sex-1]
+21/05/2017 11:28:02 appLog Value Male is set to Sex
+21/05/2017 11:28:02 appLog Trying to find Element By : By.xpath: //input[@value='5']
+21/05/2017 11:28:02 appLog Found Element By : By.xpath: //input[@value='5']
+21/05/2017 11:28:02 appLog Trying to click on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> xpath: //input[@value='5']]
+21/05/2017 11:28:02 appLog Clicked on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> xpath: //input[@value='5']]
+21/05/2017 11:28:02 appLog Years Of Expericen 5is set
+21/05/2017 11:28:02 appLog Trying to find Element By : By.id: datepicker
+21/05/2017 11:28:02 appLog Found Element By : By.id: datepicker
+21/05/2017 11:28:02 appLog Value of the:[[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: datepicker] before any changes made
+21/05/2017 11:28:02 appLog Element value changed to: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: datepicker]
+21/05/2017 11:28:02 appLog Date 10/10/1990is set to Date
+21/05/2017 11:28:02 appLog Trying to find Element By : By.id: profession-1
+21/05/2017 11:28:02 appLog Found Element By : By.id: profession-1
+21/05/2017 11:28:02 appLog Trying to click on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: profession-1]
+21/05/2017 11:28:02 appLog Clicked on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: profession-1]
+21/05/2017 11:28:02 appLog Profession Automation Testeris selected
+21/05/2017 11:28:02 appLog Trying to find Element By : By.id: photo
+21/05/2017 11:28:02 appLog Found Element By : By.id: photo
+21/05/2017 11:28:02 appLog Trying to click on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: photo]
+21/05/2017 11:28:02 appLog Clicked on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: photo]
+21/05/2017 11:28:05 appLog File Upload is success
+21/05/2017 11:28:05 appLog Trying to find Element By : By.linkText: Test File to Download
+21/05/2017 11:28:05 appLog Found Element By : By.linkText: Test File to Download
+21/05/2017 11:28:05 appLog Trying to click on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> link text: Test File to Download]
+21/05/2017 11:28:05 appLog Clicked on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> link text: Test File to Download]
+21/05/2017 11:28:23 appLog File DownLoad is success
+21/05/2017 11:28:23 appLog Trying to find Element By : By.id: tool-1
+21/05/2017 11:28:23 appLog Found Element By : By.id: tool-1
+21/05/2017 11:28:23 appLog Trying to click on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: tool-1]
+21/05/2017 11:28:23 appLog Clicked on: [[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: tool-1]
+21/05/2017 11:28:23 appLog Selenium IDE is selected 
+21/05/2017 11:28:23 appLog Trying to find Element By : By.id: continents
+21/05/2017 11:28:23 appLog Found Element By : By.id: continents
+21/05/2017 11:28:23 appLog Trying to find Element By : By.tagName: option
+21/05/2017 11:28:23 appLog Found Element By : By.tagName: option
+21/05/2017 11:28:23 appLog Trying to click on: [[[[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: continents]] -> tag name: option]
+21/05/2017 11:28:23 appLog Clicked on: [[[[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: continents]] -> tag name: option]
+21/05/2017 11:28:23 appLog Value North America is selected 
+21/05/2017 11:28:23 appLog Trying to find Element By : By.id: selenium_commands
+21/05/2017 11:28:23 appLog Found Element By : By.id: selenium_commands
+21/05/2017 11:28:23 appLog Trying to find Element By : By.tagName: option
+21/05/2017 11:28:23 appLog Found Element By : By.tagName: option
+21/05/2017 11:28:23 appLog Trying to click on: [[[[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: selenium_commands]] -> tag name: option]
+21/05/2017 11:28:23 appLog Clicked on: [[[[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: selenium_commands]] -> tag name: option]
+21/05/2017 11:28:23 appLog Trying to find Element By : By.tagName: option
+21/05/2017 11:28:23 appLog Found Element By : By.tagName: option
+21/05/2017 11:28:23 appLog Trying to click on: [[[[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: selenium_commands]] -> tag name: option]
+21/05/2017 11:28:24 appLog Clicked on: [[[[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: selenium_commands]] -> tag name: option]
+21/05/2017 11:28:24 appLog Trying to find Element By : By.tagName: option
+21/05/2017 11:28:24 appLog Found Element By : By.tagName: option
+21/05/2017 11:28:24 appLog Trying to click on: [[[[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: selenium_commands]] -> tag name: option]
+21/05/2017 11:28:24 appLog Clicked on: [[[[FirefoxDriver: firefox on XP (7a8184c6-2e33-4870-844c-19ce5d2be077)] -> id: selenium_commands]] -> tag name: option]
+21/05/2017 11:28:24 appLog Success is updated into Excel Successfully

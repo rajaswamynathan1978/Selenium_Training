@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Command line suite</th></tr><tr><td><a href="#t0">Command line test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">4</td><td class="num">136,516</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.AddCustomer_Grid_Test</td><td><a href="#m0">addCustomer</a></td><td rowspan="1">1496090913666</td><td rowspan="1">1025</td></tr><tr class="failedodd"><td rowspan="1">tests.AddCustomer_Test</td><td><a href="#m1">addCustomer</a></td><td rowspan="1">1496090914717</td><td rowspan="1">12566</td></tr><tr class="failedeven"><td rowspan="1">tests.Google_Search_Test</td><td><a href="#m2">searchGoogle</a></td><td rowspan="1">1496090927286</td><td rowspan="1">4217</td></tr><tr class="failedodd"><td rowspan="1">tests.Practice_Automation_ToolsQA_Test</td><td><a href="#m3">automationPractice</a></td><td rowspan="1">1496090931505</td><td rowspan="1">3683</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">runnerPackage.TestRunner</td><td><a href="#m4">run_cukes</a></td><td rowspan="1">1496090798685</td><td rowspan="1">114980</td></tr></tbody></table><h2>Command line test</h2><h3 id="m0">tests.AddCustomer_Grid_Test#addCustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;LAPTOP-KFKBTHVD&apos;, ip: &apos;192.168.0.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
+	at tests.AddCustomer_Grid_Test.addCustomer(AddCustomer_Grid_Test.java:70)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.0.23:4445 [/192.168.0.23] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	... 38 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 53 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">tests.AddCustomer_Test#addCustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;LAPTOP-KFKBTHVD&apos;, ip: &apos;192.168.0.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIABGGvUoAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXS2/jNhC+91cUPrVATCeb7mV7cpMsUCBoinWD7I2gqZHFmCJZDunHv+9QsuKHZMneW0+mqeFj5vvmm2FE8Nx5yH8Zzb1d0z+GIodqrMyClUKvhQcGRsw1ZKObn3OhEX79/ae4X5mJQDbO+pCWFCB0KOr/jIxWSg6sb04uQDvwU+eQpWO3OMUly62XcPE6Aysa0TIUK/jHPipc0tpRgE2YSFzdCOe0kiIoayabcYmwkaCPZtszm3F7bmUyVuLugyrFAibOLHajdweLm+rIIpS6HjktlDnaosS19dnxSaUeHbtoIJDVkhUhOOYKhcV2nD47gTjWYBahIP8+ff7cHRkPIqOfDALIANlX5TFMCSapU0iDj6dI2pIg33BZeFsCR+mVC9xHw4Mq05L72+6DgpgjI6aYF/OgLQ4Altm10VZQCIWhgBHnCrt+K8DMiEiJRN3LHV3KBUyH8dJmQg/QElbBWo0MvCcSWYNWHzKx7T6qhbGGolZCOQc/q/5ivy8IiIQdBktp4gEjxS2ni3LpBRbXE9c6MF9Vhc//l7aNg1qZ2iNOm4E3Qie2Xq0eeeLtt2i6o7mGeeYVhY8LKYH4Gg1Bi8R3LsEH7IT6g4oKycctZE93t7O/LKVGivxv3cY0lb2YN2WIwHh3yxQdZF+/PSesxNzG8GWuhVmO2klVO8SF1vwdeYq/S6HrvtvGKeIT2bJ1oQJohYE2+Dcqf47qiedLFdhOLpq0IucS2XsDoAUBQxnen0uYEjM6VpAsONqbr0HLJBHRJ0hHZ/D/SPTcahKiZ/KkTYBEDVPlEIuO2ADMEA759pVMri440aXznnp9ARm9CluilQYaMQxeycCtVwtluLNE7G1/4hpYkwixnfM90B9dtN6ZpclZnJeqEo6/q8lpxdzLCmznNr0ef2jVDsWEIFme0fJ90pKb64rsbdBsnpMdjEVdrbVd8/mWZ5CLqEO3uDZhl+h2ZLuySpDNW3OdjnVtHvVSuskZSjDS++C3rK4vlf2nIduLGpqWBzLVxlToHq0Z8P7p9XnK7pnYE6Md0nexEnWN7i1rp/A3SdzP3bbPHt6rNqL3kDo10vb9MTpAS8SQOrVkPJNEvKSKd7fnRL7elRuqPSvgVDbNgMQf9CYvxOrB68y1lctKdC8CGUF4WewoN8SHktUJxbJYuotA++BQppIajh6+TN5I4mdOSJjMCBujYjlJVs9khZMTFCk/L8qGI9pZirNXWXfhaMnnqW7ed7ewdQ6MG+EgMoY40FvtbM+I4q5XHW5SDxoErPqzfYNA4hmrKtP28yByiaDdlzjIQFtX9KqX/dM81O3mZdA28pBbGXG4D06e70o7r3Q6IxjMgqe9fqDxnmrqkqhvJ/HTMERhpJ5VM1mAXD7WYv9H/eX6voGJLFMpZmKgina+TH/0RartYpEmd++B3rp5IAqVxylEJDtzpRP/jVoUQZ/pFA6WNidele0NQKIG5+n703ntOqfvvMlj6vlDXXBG6Unj4STA+4YzvYAoL+kdM9Bx7tVP5xhd3Xvte8H/AFBLBwjp04ybgAQAAFgQAABQSwECFAAUAAgICAARhr1K6dOMm4AEAABYEAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAAC1BAAAAAA=}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=10232, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 1e05ae19-b6d2-4f82-840e-501f0f3e7f8f
+*** Element info: {Using=xpath, value=//a[contains(@href,&apos;addcustomerpage.php&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at pages_Repository.AddCustomer_Repo.clickNewCustomerLink(AddCustomer_Repo.java:59)
+	at tests.AddCustomer_Test.addCustomer(AddCustomer_Test.java:95)
+... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">tests.Google_Search_Test#searchGoogle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;LAPTOP-KFKBTHVD&apos;, ip: &apos;192.168.0.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=7092, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: f52fa2bf-564f-4e4d-a943-7d44a3b54c2e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)
+	at tests.Google_Search_Test.searchGoogle(Google_Search_Test.java:25)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">tests.Practice_Automation_ToolsQA_Test#automationPractice</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;LAPTOP-KFKBTHVD&apos;, ip: &apos;192.168.0.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIABqGvUoAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXS2/jNhC+91cUPrVATCeb7mV7cpMsUCBoinWD7I2gqZHFmCJZDunHv+9QsuKHZMneW0+mqeFj5vvmm2FE8Nx5yH8Zzb1d0z+GIodqrMyClUKvhQcGRsw1ZKObn3OhEX79/ae4X5mJQDbO+pCWFCB0KOr/jIxWSg6sb04uQDvwU+eQpWO3OMUly62XcPE6Aysa0TIUK/jHPipc0tpRgE2YSFzdCOe0kiIoayabcYmwkaCPZtszm3F7bmUyVuLugyrFAibOLHajdweLm+rIIpS6HjktlDnaosS19dnxSaUeHbtoIJDVkhUhOOYKhcV2nD47gTjWYBahIP8+ff7cHRkPIqOfDALIANlX5TFMCSapU0iDj6dI2pIg33BZeFsCR+mVC9xHw4Mq05L72+6DgpgjI6aYF/OgLQ4Altm10VZQCIWhgBHnCrt+K8DMiEiJRN3LHV3KBUyH8dJmQg/QElbBWo0MvCcSWYNWHzKx7T6qhbGGolZCOQc/q/5ivy8IiIQdBktp4gEjxS2ni3LpBRbXE9c6MF9Vhc//l7aNg1qZ2iNOm4E3Qie2Xq0eeeLtt2i6o7mGeeYVhY8LKYH4Gg1Bi8R3LsEH7IT6g4oKycctZE93t7O/LKVGivxv3cY0lb2YN2WIwHh3yxQdZF+/PSesxNzG8GWuhVmO2klVO8SF1vwdeYq/S6HrvtvGKeIT2bJ1oQJohYE2+Dcqf47qiedLFdhOLpq0IucS2XsDoAUBQxnen0uYEjM6VpAsONqbr0HLJBHRJ0hHZ/D/SPTcahKiZ/KkTYBEDVPlEIuO2ADMEA759pVMri440aXznnp9ARm9CluilQYaMQxeycCtVwtluLNE7G1/4hpYkwixnfM90B9dtN6ZpclZnJeqEo6/q8lpxdzLCmznNr0ef2jVDsWEIFme0fJ90pKb64rsbdBsnpMdjEVdrbVd8/mWZ5CLqEO3uDZhl+h2ZLuySpDNW3OdjnVtHvVSuskZSjDS++C3rK4vlf2nIduLGpqWBzLVxlToHq0Z8P7p9XnK7pnYE6Md0nexEnWN7i1rp/A3SdzP3bbPHt6rNqL3kDo10vb9MTpAS8SQOrVkPJNEvKSKd7fnRL7elRuqPSvgVDbNgMQf9CYvxOrB68y1lctKdC8CGUF4WewoN8SHktUJxbJYuotA++BQppIajh6+TN5I4mdOSJjMCBujYjlJVs9khZMTFCk/L8qGI9pZirNXWXfhaMnnqW7ed7ewdQ6MG+EgMoY40FvtbM+I4q5XHW5SDxoErPqzfYNA4hmrKtP28yByiaDdlzjIQFtX9KqX/dM81O3mZdA28pBbGXG4D06e70o7r3Q6IxjMgqe9fqDxnmrqkqhvJ/HTMERhpJ5VM1mAXD7WYv9H/eX6voGJLFMpZmKgina+TH/0RartYpEmd++B3rp5IAqVxylEJDtzpRP/jVoUQZ/pFA6WNidele0NQKIG5+n703ntOqfvvMlj6vlDXXBG6Unj4STA+4YzvYAoL+kdM9Bx7tVP5xhd3Xvte8H/AFBLBwjp04ybgAQAAFgQAABQSwECFAAUAAgICAAahr1K6dOMm4AEAABYEAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAAC1BAAAAAA=}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=6816, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 99a12ec5-1dc1-4778-8121-ebed5af84a91
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:162)
+	at tests.Practice_Automation_ToolsQA_Test.automationPractice(Practice_Automation_ToolsQA_Test.java:59)
+... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">runnerPackage.TestRunner#run_cukes</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">&lt;div &quot;featureFile&quot;&gt;Feature File: PA.feature&lt;/div&gt;<br/>&lt;div &quot;feature&quot;&gt;Feature: Title of your feature&lt;/div&gt;<br/>&lt;div &quot;scenario&quot;&gt;Scenario: Practice Automation&lt;/div&gt;<br/>&lt;div &quot;result&quot;&gt;Given  Login (passed : 112s)&lt;/div&gt;<br/>&lt;div &quot;result&quot;&gt;When  performOnPage (passed : 2s)&lt;/div&gt;</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="AddCustomer(failed)">
+    <classes>
+      <class name="tests.Practice_Automation_ToolsQA_Test">
+        <methods>
+          <include name="automationPractice"/>
+        </methods>
+      </class> <!-- tests.Practice_Automation_ToolsQA_Test -->
+    </classes>
+  </test> <!-- AddCustomer(failed) -->
+</suite> <!-- Failed suite [Suite] -->

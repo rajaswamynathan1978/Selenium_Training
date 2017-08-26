@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28747" started-at="2017-05-21T15:27:55Z" finished-at="2017-05-21T15:28:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28747" started-at="2017-05-21T15:27:55Z" finished-at="2017-05-21T15:28:24Z">
+      <class name="tests.Practice_Automation_ToolsQA_Test">
+        <test-method status="PASS" signature="automationPractice()[pri:0, instance:tests.Practice_Automation_ToolsQA_Test@27c20538]" name="automationPractice" duration-ms="28730" started-at="2017-05-21T11:27:55Z" finished-at="2017-05-21T11:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationPractice -->
+      </class> <!-- tests.Practice_Automation_ToolsQA_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

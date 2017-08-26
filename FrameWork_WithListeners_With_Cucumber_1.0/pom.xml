@@ -1,0 +1,107 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.maven.sample</groupId>
+  <artifactId>maven-sample_program</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <profiles>
+   <profile>
+      <id>selenium-tests</id>
+      <build>
+         <plugins>
+            <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-surefire-plugin</artifactId>
+               <version>2.19.1</version>
+               <configuration>
+                  <suiteXmlFiles>
+                     <suiteXmlFile>testng.xml</suiteXmlFile>
+                  </suiteXmlFiles>
+                  <testFailureIgnore>true</testFailureIgnore>
+               </configuration>
+            </plugin>
+
+            <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.6.0</version>
+            </plugin>     
+         </plugins>
+      </build>
+   </profile>
+</profiles>
+  <dependencies>
+  <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.9.8</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+  <groupId>org.apache.maven.surefire</groupId>
+  <artifactId>surefire</artifactId>
+  <version>2.19.1</version>
+  <type>pom</type>
+</dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.6.0</version>
+      <type>maven-plugin</type>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.16-beta1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.16-beta1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>1.1.5</version>
+</dependency>
+<dependency>
+<groupId>info.cukes</groupId>
+<artifactId>cucumber-core</artifactId>
+<version>1.1.5</version>
+</dependency>
+<dependency>
+<groupId>info.cukes</groupId>
+<artifactId>cucumber-junit</artifactId>
+<version>1.1.5</version>
+</dependency>
+<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-jvm</artifactId>
+			<version>1.1.5</version>
+			<type>pom</type>
+		</dependency>
+<dependency>
+			<groupId>net.masterthought</groupId>
+			<artifactId>cucumber-reporting</artifactId>
+			<version>1.0.0</version>
+		</dependency>	
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>1.1.5</version>
+</dependency>			
+</dependencies>
+</project>

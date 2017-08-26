@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="tests.AddCustomer_Grid_Test">
+        <methods>
+          <include name="addCustomer"/>
+        </methods>
+      </class> <!-- tests.AddCustomer_Grid_Test -->
+      <class name="tests.Google_Search_Test">
+        <methods>
+          <include name="searchGoogle"/>
+        </methods>
+      </class> <!-- tests.Google_Search_Test -->
+      <class name="tests.AddCustomer_Test">
+        <methods>
+          <include name="addCustomer"/>
+        </methods>
+      </class> <!-- tests.AddCustomer_Test -->
+      <class name="tests.Practice_Automation_ToolsQA_Test">
+        <methods>
+          <include name="automationPractice"/>
+        </methods>
+      </class> <!-- tests.Practice_Automation_ToolsQA_Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

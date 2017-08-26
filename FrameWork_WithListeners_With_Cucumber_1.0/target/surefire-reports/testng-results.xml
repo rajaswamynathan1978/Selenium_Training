@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="5" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: PA.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Title of your feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Practice Automation</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login (passed : 112s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  performOnPage (passed : 2s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="136516" started-at="2017-05-29T20:46:38Z" finished-at="2017-05-29T20:48:55Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:runnerPackage.TestRunner@71e9ddb4]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="136516" started-at="2017-05-29T20:46:38Z" finished-at="2017-05-29T20:48:55Z">
+      <class name="tests.Practice_Automation_ToolsQA_Test">
+        <test-method status="FAIL" signature="automationPractice()[pri:0, instance:tests.Practice_Automation_ToolsQA_Test@75db5df9]" name="automationPractice" duration-ms="3683" started-at="2017-05-29T16:48:51Z" finished-at="2017-05-29T16:48:55Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-KFKBTHVD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIABqGvUoAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXS2/jNhC+91cUPrVATCeb7mV7cpMsUCBoinWD7I2gqZHFmCJZDunHv+9QsuKHZMneW0+mqeFj5vvmm2FE8Nx5yH8Zzb1d0z+GIodqrMyClUKvhQcGRsw1ZKObn3OhEX79/ae4X5mJQDbO+pCWFCB0KOr/jIxWSg6sb04uQDvwU+eQpWO3OMUly62XcPE6Aysa0TIUK/jHPipc0tpRgE2YSFzdCOe0kiIoayabcYmwkaCPZtszm3F7bmUyVuLugyrFAibOLHajdweLm+rIIpS6HjktlDnaosS19dnxSaUeHbtoIJDVkhUhOOYKhcV2nD47gTjWYBahIP8+ff7cHRkPIqOfDALIANlX5TFMCSapU0iDj6dI2pIg33BZeFsCR+mVC9xHw4Mq05L72+6DgpgjI6aYF/OgLQ4Altm10VZQCIWhgBHnCrt+K8DMiEiJRN3LHV3KBUyH8dJmQg/QElbBWo0MvCcSWYNWHzKx7T6qhbGGolZCOQc/q/5ivy8IiIQdBktp4gEjxS2ni3LpBRbXE9c6MF9Vhc//l7aNg1qZ2iNOm4E3Qie2Xq0eeeLtt2i6o7mGeeYVhY8LKYH4Gg1Bi8R3LsEH7IT6g4oKycctZE93t7O/LKVGivxv3cY0lb2YN2WIwHh3yxQdZF+/PSesxNzG8GWuhVmO2klVO8SF1vwdeYq/S6HrvtvGKeIT2bJ1oQJohYE2+Dcqf47qiedLFdhOLpq0IucS2XsDoAUBQxnen0uYEjM6VpAsONqbr0HLJBHRJ0hHZ/D/SPTcahKiZ/KkTYBEDVPlEIuO2ADMEA759pVMri440aXznnp9ARm9CluilQYaMQxeycCtVwtluLNE7G1/4hpYkwixnfM90B9dtN6ZpclZnJeqEo6/q8lpxdzLCmznNr0ef2jVDsWEIFme0fJ90pKb64rsbdBsnpMdjEVdrbVd8/mWZ5CLqEO3uDZhl+h2ZLuySpDNW3OdjnVtHvVSuskZSjDS++C3rK4vlf2nIduLGpqWBzLVxlToHq0Z8P7p9XnK7pnYE6Md0nexEnWN7i1rp/A3SdzP3bbPHt6rNqL3kDo10vb9MTpAS8SQOrVkPJNEvKSKd7fnRL7elRuqPSvgVDbNgMQf9CYvxOrB68y1lctKdC8CGUF4WewoN8SHktUJxbJYuotA++BQppIajh6+TN5I4mdOSJjMCBujYjlJVs9khZMTFCk/L8qGI9pZirNXWXfhaMnnqW7ed7ewdQ6MG+EgMoY40FvtbM+I4q5XHW5SDxoErPqzfYNA4hmrKtP28yByiaDdlzjIQFtX9KqX/dM81O3mZdA28pBbGXG4D06e70o7r3Q6IxjMgqe9fqDxnmrqkqhvJ/HTMERhpJ5VM1mAXD7WYv9H/eX6voGJLFMpZmKgina+TH/0RartYpEmd++B3rp5IAqVxylEJDtzpRP/jVoUQZ/pFA6WNidele0NQKIG5+n703ntOqfvvMlj6vlDXXBG6Unj4STA+4YzvYAoL+kdM9Bx7tVP5xhd3Xvte8H/AFBLBwjp04ybgAQAAFgQAABQSwECFAAUAAgICAAahr1K6dOMm4AEAABYEAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAAC1BAAAAAA=}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=6816, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 99a12ec5-1dc1-4778-8121-ebed5af84a91]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-KFKBTHVD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIABqGvUoAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXS2/jNhC+91cUPrVATCeb7mV7cpMsUCBoinWD7I2gqZHFmCJZDunHv+9QsuKHZMneW0+mqeFj5vvmm2FE8Nx5yH8Zzb1d0z+GIodqrMyClUKvhQcGRsw1ZKObn3OhEX79/ae4X5mJQDbO+pCWFCB0KOr/jIxWSg6sb04uQDvwU+eQpWO3OMUly62XcPE6Aysa0TIUK/jHPipc0tpRgE2YSFzdCOe0kiIoayabcYmwkaCPZtszm3F7bmUyVuLugyrFAibOLHajdweLm+rIIpS6HjktlDnaosS19dnxSaUeHbtoIJDVkhUhOOYKhcV2nD47gTjWYBahIP8+ff7cHRkPIqOfDALIANlX5TFMCSapU0iDj6dI2pIg33BZeFsCR+mVC9xHw4Mq05L72+6DgpgjI6aYF/OgLQ4Altm10VZQCIWhgBHnCrt+K8DMiEiJRN3LHV3KBUyH8dJmQg/QElbBWo0MvCcSWYNWHzKx7T6qhbGGolZCOQc/q/5ivy8IiIQdBktp4gEjxS2ni3LpBRbXE9c6MF9Vhc//l7aNg1qZ2iNOm4E3Qie2Xq0eeeLtt2i6o7mGeeYVhY8LKYH4Gg1Bi8R3LsEH7IT6g4oKycctZE93t7O/LKVGivxv3cY0lb2YN2WIwHh3yxQdZF+/PSesxNzG8GWuhVmO2klVO8SF1vwdeYq/S6HrvtvGKeIT2bJ1oQJohYE2+Dcqf47qiedLFdhOLpq0IucS2XsDoAUBQxnen0uYEjM6VpAsONqbr0HLJBHRJ0hHZ/D/SPTcahKiZ/KkTYBEDVPlEIuO2ADMEA759pVMri440aXznnp9ARm9CluilQYaMQxeycCtVwtluLNE7G1/4hpYkwixnfM90B9dtN6ZpclZnJeqEo6/q8lpxdzLCmznNr0ef2jVDsWEIFme0fJ90pKb64rsbdBsnpMdjEVdrbVd8/mWZ5CLqEO3uDZhl+h2ZLuySpDNW3OdjnVtHvVSuskZSjDS++C3rK4vlf2nIduLGpqWBzLVxlToHq0Z8P7p9XnK7pnYE6Md0nexEnWN7i1rp/A3SdzP3bbPHt6rNqL3kDo10vb9MTpAS8SQOrVkPJNEvKSKd7fnRL7elRuqPSvgVDbNgMQf9CYvxOrB68y1lctKdC8CGUF4WewoN8SHktUJxbJYuotA++BQppIajh6+TN5I4mdOSJjMCBujYjlJVs9khZMTFCk/L8qGI9pZirNXWXfhaMnnqW7ed7ewdQ6MG+EgMoY40FvtbM+I4q5XHW5SDxoErPqzfYNA4hmrKtP28yByiaDdlzjIQFtX9KqX/dM81O3mZdA28pBbGXG4D06e70o7r3Q6IxjMgqe9fqDxnmrqkqhvJ/HTMERhpJ5VM1mAXD7WYv9H/eX6voGJLFMpZmKgina+TH/0RartYpEmd++B3rp5IAqVxylEJDtzpRP/jVoUQZ/pFA6WNidele0NQKIG5+n703ntOqfvvMlj6vlDXXBG6Unj4STA+4YzvYAoL+kdM9Bx7tVP5xhd3Xvte8H/AFBLBwjp04ybgAQAAFgQAABQSwECFAAUAAgICAAahr1K6dOMm4AEAABYEAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAAC1BAAAAAA=}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=6816, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 99a12ec5-1dc1-4778-8121-ebed5af84a91
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy10.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:162)
+	at tests.Practice_Automation_ToolsQA_Test.automationPractice(Practice_Automation_ToolsQA_Test.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationPractice -->
+      </class> <!-- tests.Practice_Automation_ToolsQA_Test -->
+      <class name="runnerPackage.TestRunner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:runnerPackage.TestRunner@71e9ddb4]" name="run_cukes" duration-ms="114980" started-at="2017-05-29T16:46:38Z" description="Runs Cucumber Features" finished-at="2017-05-29T16:48:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: PA.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Title of your feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Practice Automation</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login (passed : 112s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  performOnPage (passed : 2s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- runnerPackage.TestRunner -->
+      <class name="tests.Google_Search_Test">
+        <test-method status="FAIL" signature="searchGoogle()[pri:0, instance:tests.Google_Search_Test@33c911a1]" name="searchGoogle" duration-ms="4217" started-at="2017-05-29T16:48:47Z" finished-at="2017-05-29T16:48:51Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-KFKBTHVD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=7092, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: f52fa2bf-564f-4e4d-a943-7d44a3b54c2e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-KFKBTHVD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=7092, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: f52fa2bf-564f-4e4d-a943-7d44a3b54c2e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)
+	at tests.Google_Search_Test.searchGoogle(Google_Search_Test.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+      </class> <!-- tests.Google_Search_Test -->
+      <class name="tests.AddCustomer_Grid_Test">
+        <test-method status="FAIL" signature="addCustomer()[pri:0, instance:tests.AddCustomer_Grid_Test@5aebe890]" name="addCustomer" duration-ms="1025" started-at="2017-05-29T16:48:33Z" finished-at="2017-05-29T16:48:34Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-KFKBTHVD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-KFKBTHVD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
+	at tests.AddCustomer_Grid_Test.addCustomer(AddCustomer_Grid_Test.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.0.23:4445 [/192.168.0.23] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	... 38 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 53 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- tests.AddCustomer_Grid_Test -->
+      <class name="tests.AddCustomer_Test">
+        <test-method status="FAIL" signature="addCustomer()[pri:0, instance:tests.AddCustomer_Test@65d09a04]" name="addCustomer" duration-ms="12566" started-at="2017-05-29T16:48:34Z" finished-at="2017-05-29T16:48:47Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-KFKBTHVD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIABGGvUoAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXS2/jNhC+91cUPrVATCeb7mV7cpMsUCBoinWD7I2gqZHFmCJZDunHv+9QsuKHZMneW0+mqeFj5vvmm2FE8Nx5yH8Zzb1d0z+GIodqrMyClUKvhQcGRsw1ZKObn3OhEX79/ae4X5mJQDbO+pCWFCB0KOr/jIxWSg6sb04uQDvwU+eQpWO3OMUly62XcPE6Aysa0TIUK/jHPipc0tpRgE2YSFzdCOe0kiIoayabcYmwkaCPZtszm3F7bmUyVuLugyrFAibOLHajdweLm+rIIpS6HjktlDnaosS19dnxSaUeHbtoIJDVkhUhOOYKhcV2nD47gTjWYBahIP8+ff7cHRkPIqOfDALIANlX5TFMCSapU0iDj6dI2pIg33BZeFsCR+mVC9xHw4Mq05L72+6DgpgjI6aYF/OgLQ4Altm10VZQCIWhgBHnCrt+K8DMiEiJRN3LHV3KBUyH8dJmQg/QElbBWo0MvCcSWYNWHzKx7T6qhbGGolZCOQc/q/5ivy8IiIQdBktp4gEjxS2ni3LpBRbXE9c6MF9Vhc//l7aNg1qZ2iNOm4E3Qie2Xq0eeeLtt2i6o7mGeeYVhY8LKYH4Gg1Bi8R3LsEH7IT6g4oKycctZE93t7O/LKVGivxv3cY0lb2YN2WIwHh3yxQdZF+/PSesxNzG8GWuhVmO2klVO8SF1vwdeYq/S6HrvtvGKeIT2bJ1oQJohYE2+Dcqf47qiedLFdhOLpq0IucS2XsDoAUBQxnen0uYEjM6VpAsONqbr0HLJBHRJ0hHZ/D/SPTcahKiZ/KkTYBEDVPlEIuO2ADMEA759pVMri440aXznnp9ARm9CluilQYaMQxeycCtVwtluLNE7G1/4hpYkwixnfM90B9dtN6ZpclZnJeqEo6/q8lpxdzLCmznNr0ef2jVDsWEIFme0fJ90pKb64rsbdBsnpMdjEVdrbVd8/mWZ5CLqEO3uDZhl+h2ZLuySpDNW3OdjnVtHvVSuskZSjDS++C3rK4vlf2nIduLGpqWBzLVxlToHq0Z8P7p9XnK7pnYE6Md0nexEnWN7i1rp/A3SdzP3bbPHt6rNqL3kDo10vb9MTpAS8SQOrVkPJNEvKSKd7fnRL7elRuqPSvgVDbNgMQf9CYvxOrB68y1lctKdC8CGUF4WewoN8SHktUJxbJYuotA++BQppIajh6+TN5I4mdOSJjMCBujYjlJVs9khZMTFCk/L8qGI9pZirNXWXfhaMnnqW7ed7ewdQ6MG+EgMoY40FvtbM+I4q5XHW5SDxoErPqzfYNA4hmrKtP28yByiaDdlzjIQFtX9KqX/dM81O3mZdA28pBbGXG4D06e70o7r3Q6IxjMgqe9fqDxnmrqkqhvJ/HTMERhpJ5VM1mAXD7WYv9H/eX6voGJLFMpZmKgina+TH/0RartYpEmd++B3rp5IAqVxylEJDtzpRP/jVoUQZ/pFA6WNidele0NQKIG5+n703ntOqfvvMlj6vlDXXBG6Unj4STA+4YzvYAoL+kdM9Bx7tVP5xhd3Xvte8H/AFBLBwjp04ybgAQAAFgQAABQSwECFAAUAAgICAARhr1K6dOMm4AEAABYEAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAAC1BAAAAAA=}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=10232, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 1e05ae19-b6d2-4f82-840e-501f0f3e7f8f
+*** Element info: {Using=xpath, value=//a[contains(@href,'addcustomerpage.php')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-KFKBTHVD', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIABGGvUoAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXS2/jNhC+91cUPrVATCeb7mV7cpMsUCBoinWD7I2gqZHFmCJZDunHv+9QsuKHZMneW0+mqeFj5vvmm2FE8Nx5yH8Zzb1d0z+GIodqrMyClUKvhQcGRsw1ZKObn3OhEX79/ae4X5mJQDbO+pCWFCB0KOr/jIxWSg6sb04uQDvwU+eQpWO3OMUly62XcPE6Aysa0TIUK/jHPipc0tpRgE2YSFzdCOe0kiIoayabcYmwkaCPZtszm3F7bmUyVuLugyrFAibOLHajdweLm+rIIpS6HjktlDnaosS19dnxSaUeHbtoIJDVkhUhOOYKhcV2nD47gTjWYBahIP8+ff7cHRkPIqOfDALIANlX5TFMCSapU0iDj6dI2pIg33BZeFsCR+mVC9xHw4Mq05L72+6DgpgjI6aYF/OgLQ4Altm10VZQCIWhgBHnCrt+K8DMiEiJRN3LHV3KBUyH8dJmQg/QElbBWo0MvCcSWYNWHzKx7T6qhbGGolZCOQc/q/5ivy8IiIQdBktp4gEjxS2ni3LpBRbXE9c6MF9Vhc//l7aNg1qZ2iNOm4E3Qie2Xq0eeeLtt2i6o7mGeeYVhY8LKYH4Gg1Bi8R3LsEH7IT6g4oKycctZE93t7O/LKVGivxv3cY0lb2YN2WIwHh3yxQdZF+/PSesxNzG8GWuhVmO2klVO8SF1vwdeYq/S6HrvtvGKeIT2bJ1oQJohYE2+Dcqf47qiedLFdhOLpq0IucS2XsDoAUBQxnen0uYEjM6VpAsONqbr0HLJBHRJ0hHZ/D/SPTcahKiZ/KkTYBEDVPlEIuO2ADMEA759pVMri440aXznnp9ARm9CluilQYaMQxeycCtVwtluLNE7G1/4hpYkwixnfM90B9dtN6ZpclZnJeqEo6/q8lpxdzLCmznNr0ef2jVDsWEIFme0fJ90pKb64rsbdBsnpMdjEVdrbVd8/mWZ5CLqEO3uDZhl+h2ZLuySpDNW3OdjnVtHvVSuskZSjDS++C3rK4vlf2nIduLGpqWBzLVxlToHq0Z8P7p9XnK7pnYE6Md0nexEnWN7i1rp/A3SdzP3bbPHt6rNqL3kDo10vb9MTpAS8SQOrVkPJNEvKSKd7fnRL7elRuqPSvgVDbNgMQf9CYvxOrB68y1lctKdC8CGUF4WewoN8SHktUJxbJYuotA++BQppIajh6+TN5I4mdOSJjMCBujYjlJVs9khZMTFCk/L8qGI9pZirNXWXfhaMnnqW7ed7ewdQ6MG+EgMoY40FvtbM+I4q5XHW5SDxoErPqzfYNA4hmrKtP28yByiaDdlzjIQFtX9KqX/dM81O3mZdA28pBbGXG4D06e70o7r3Q6IxjMgqe9fqDxnmrqkqhvJ/HTMERhpJ5VM1mAXD7WYv9H/eX6voGJLFMpZmKgina+TH/0RartYpEmd++B3rp5IAqVxylEJDtzpRP/jVoUQZ/pFA6WNidele0NQKIG5+n703ntOqfvvMlj6vlDXXBG6Unj4STA+4YzvYAoL+kdM9Bx7tVP5xhd3Xvte8H/AFBLBwjp04ybgAQAAFgQAABQSwECFAAUAAgICAARhr1K6dOMm4AEAABYEAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAAC1BAAAAAA=}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=10232, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 1e05ae19-b6d2-4f82-840e-501f0f3e7f8f
+*** Element info: {Using=xpath, value=//a[contains(@href,'addcustomerpage.php')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at pages_Repository.AddCustomer_Repo.clickNewCustomerLink(AddCustomer_Repo.java:59)
+	at tests.AddCustomer_Test.addCustomer(AddCustomer_Test.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- tests.AddCustomer_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

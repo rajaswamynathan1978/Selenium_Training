@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75" started-at="2016-12-27T23:48:09Z" finished-at="2016-12-27T23:48:09Z">
+    <groups>
+      <group name="shopping">
+        <method signature="TestConfiguration.runTest1()[pri:0, instance:com.testng.practice.testng.annotations.TestConfiguration@56ef9176]" name="runTest1" class="com.testng.practice.testng.annotations.TestConfiguration"/>
+      </group> <!-- shopping -->
+    </groups>
+    <test name="case1" duration-ms="41" started-at="2016-12-27T23:48:09Z" finished-at="2016-12-27T23:48:09Z">
+      <class name="com.testng.practice.testng.annotations.DBConfig">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testng.practice.testng.annotations.DBConfig@13805618]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testng.practice.testng.annotations.DBConfig@13805618]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testng.practice.testng.annotations.DBConfig -->
+      <class name="com.testng.practice.testng.annotations.TestDBConnection">
+        <test-method status="PASS" signature="runOtherTest1()[pri:0, instance:com.testng.practice.testng.annotations.TestDBConnection@4566e5bd]" name="runOtherTest1" duration-ms="3" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest1 -->
+        <test-method status="PASS" signature="runOtherTest2()[pri:0, instance:com.testng.practice.testng.annotations.TestDBConnection@4566e5bd]" name="runOtherTest2" duration-ms="3" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest2 -->
+      </class> <!-- com.testng.practice.testng.annotations.TestDBConnection -->
+      <class name="com.testng.practice.testng.annotations.TestConfiguration">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testng.practice.testng.annotations.TestConfiguration@56ef9176]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="runTest1()[pri:0, instance:com.testng.practice.testng.annotations.TestConfiguration@56ef9176]" name="runTest1" duration-ms="5" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest1 -->
+        <test-method status="PASS" signature="beforeGroups()[pri:0, instance:com.testng.practice.testng.annotations.TestConfiguration@56ef9176]" name="beforeGroups" is-config="true" duration-ms="0" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroups -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.practice.testng.annotations.TestConfiguration@56ef9176]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterGroups()[pri:0, instance:com.testng.practice.testng.annotations.TestConfiguration@56ef9176]" name="afterGroups" is-config="true" duration-ms="1" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroups -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.practice.testng.annotations.TestConfiguration@56ef9176]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.practice.testng.annotations.TestConfiguration@56ef9176]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runTest2()[pri:0, instance:com.testng.practice.testng.annotations.TestConfiguration@56ef9176]" name="runTest2" duration-ms="1" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest2 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testng.practice.testng.annotations.TestConfiguration@56ef9176]" name="afterClass" is-config="true" duration-ms="1" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.practice.testng.annotations.TestConfiguration@56ef9176]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testng.practice.testng.annotations.TestConfiguration -->
+    </test> <!-- case1 -->
+    <test name="case2" duration-ms="9" started-at="2016-12-27T23:48:09Z" finished-at="2016-12-27T23:48:09Z">
+      <class name="com.testng.practice.testng.annotations.DBConfig">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testng.practice.testng.annotations.DBConfig@2038ae61]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testng.practice.testng.annotations.DBConfig@2038ae61]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testng.practice.testng.annotations.DBConfig@2038ae61]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testng.practice.testng.annotations.DBConfig@2038ae61]" name="afterSuite" is-config="true" duration-ms="1" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testng.practice.testng.annotations.DBConfig -->
+      <class name="com.testng.practice.testng.annotations.TestDBConnection">
+        <test-method status="PASS" signature="runOtherTest1()[pri:0, instance:com.testng.practice.testng.annotations.TestDBConnection@3c0f93f1]" name="runOtherTest1" duration-ms="2" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest1 -->
+        <test-method status="PASS" signature="runOtherTest2()[pri:0, instance:com.testng.practice.testng.annotations.TestDBConnection@3c0f93f1]" name="runOtherTest2" duration-ms="1" started-at="2016-12-27T18:48:09Z" finished-at="2016-12-27T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest2 -->
+      </class> <!-- com.testng.practice.testng.annotations.TestDBConnection -->
+    </test> <!-- case2 -->
+  </suite> <!-- Suite -->
+</testng-results>
