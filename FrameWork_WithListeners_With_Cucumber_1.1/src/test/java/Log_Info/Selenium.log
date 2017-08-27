@@ -1,0 +1,172 @@
+27/08/2017 14:21:47 appLog Method Cucumber_Demo is Started
+27/08/2017 14:21:47 appLog Method run_cukes is Passed From Test null
+27/08/2017 14:21:47 appLog Method run_cukes is Failed From Test null
+27/08/2017 14:21:47 appLog Method Cucumber_Demo is Finished
+27/08/2017 14:22:21 appLog Method Cucumber_Demo is Started
+27/08/2017 14:22:21 appLog Method run_cukes is Passed From Test null
+27/08/2017 14:22:21 appLog Method run_cukes is Failed From Test null
+27/08/2017 14:22:21 appLog Method Cucumber_Demo is Finished
+27/08/2017 14:22:55 appLog Method Cucumber_Demo is Started
+27/08/2017 14:22:55 appLog Method run_cukes is Passed From Test null
+27/08/2017 14:22:57 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+27/08/2017 14:22:57 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+27/08/2017 14:22:57 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:24722][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+27/08/2017 14:22:57 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:24722][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+27/08/2017 14:22:57 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:24722
+27/08/2017 14:22:57 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:24722
+27/08/2017 14:22:57 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:52514<->127.0.0.1:24722
+27/08/2017 14:22:57 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+27/08/2017 14:22:57 org.apache.http.impl.execchain.MainClientExec Executing request POST /session HTTP/1.1
+27/08/2017 14:22:57 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+27/08/2017 14:22:57 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+27/08/2017 14:22:57 org.apache.http.headers http-outgoing-0 >> POST /session HTTP/1.1
+27/08/2017 14:22:57 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+27/08/2017 14:22:57 org.apache.http.headers http-outgoing-0 >> Content-Length: 9038
+27/08/2017 14:22:57 org.apache.http.headers http-outgoing-0 >> Host: localhost:24722
+27/08/2017 14:22:57 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+27/08/2017 14:22:57 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+27/08/2017 14:22:57 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "Content-Length: 9038[\r][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "Host: localhost:24722[\r][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "{[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "    "moz:firefoxOptions": {[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "      "profile": "UEsDBBQACAgIANxyG0sAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXTW/jNhC991cUPrVATCeb7mV7cpMsUCBoinWD7E2gqZHEmCJZDmnZ/75DyYo/JEv23nqKIg8/Zt6bN08BwSXWQfbLZOlMRf8x5BnUz1LnrOSq4g4YaL5UkE5ufs64Qvj195/CfmXKPcVY43xcUgBXvmj+ZxS0lmJkfXtyAcqCm1uLLB67xTmuWGacgIvXaVjTEy1DvoZ/zKPEFa2deNj4mcD1DbdWScG9NHq2mZYIGwHq6G33zWbafbfWKStx94MseQ4zq/Pd07uF/KY+svClap6s4lIfbVFiZVx6fFKpJscpavAUtWKF95bZQmKxncafLUecKtC5Lyi/T58/91fGAU/pTwoehIf0q3To5wSTULGk3oVTJE1JkG8SUThTQoLCSesTF3TiZRmX3N/2H+T5EhkxRb/oB2VwBLDUVFoZTiXkmgpGnCtM9VaAXhCRIon6l1u6lPUYD0tKk3I1QktYe2MUMnCOSGQ0GnXIxG76KHNtNFWthHIJblH/i8O5ICASdugNtYkDDFS3jC6aCMexuJ64xoL+Kmt8/r+0bRNUUjcZJbQZOM1VZOvV6pFF3n4Lur+aFSxTJ6l8CRcCiK9BE7RIfE8EOI+9UH9QUSLluIX06e528Zeh1oiV/60/mF6lL/pNaiIw3t0ySQeZ12/PESu+NMF/WSquV5NuUzUJJVyp5B2TWH8bS9d/t42VxCeKZVUhPSiJnjb4N0h3juqR5yvp2U4u2rai5CLZBwugOAFDHT7cSxgbM1hWkCxY2jupQIkoEcFFSCdn8P9o9MwoEqJnyqRLgEgNXfcQC5bYAEwTDtn2lUKuHjjBxvOeBnMBEZz0W6KVAnpi6J0UPjFO5lIn1hCxt8ONq6EiEWK75AegP7poszOLLxdhWcpaOP6uX85r5l42YHu3Gcz4Q6t2KEYEKfKMlu+bltKsarJ3QTNZRnEw5c20VqZKltskhYwH5fvFtS27QLsj25VTgmLe2uv0rOvyaJDSbc9Qg5Hee7dlzXyp4z+NxV5kaDoZiDgb46B7NHok+6fX5zm7Z3xPjG5J3/maNzN6cKydwt828TB3W+shOEnVGqaRflxNL3J03Xo5eK8tyOAFm7aKVxve/gBpHnx0eTF4IYi0UVHvxk3KC9F7dO+lMmJVq+9FaCNwJ4od98aIUbKms1gaSnsReh9kSmWUxcnDl9kb4bOwXMBsQYXWMpSzGPVMUTg7gZMa9aK2OOKfoanqZNo/QTo6eiqg9/2Eapph2ioIsdKHEZO1iz2jjjvTOu5WD5wC1kZt7xRIRUM9brp5HlQusq3/EgetaJrRXpvaP/VD4zsvg7bVicyIgOOGOGa+m/FJLdgpwaDzJO71Aw58rsgukYEnFVQwRmEk86qYKECsHhvV/6P55XoDwXiaylgzPjJOez9Rf/TTVJk8jy93HwaDA/RAFOqMY4nI+y6livzXMi+8OmMZDpa2J17V7S1AvAHn6fvTee06J/RJ28dk/n0zeSbx28bBSYH3zjN+ClFf0gfNiPXcq5/KMNjGhO1N4X9QSwcIZnXtGH4EAABhEAAAUEsBAhQAFAAICAgA3HIbS2Z17Rh+BAAAYRAAAAcAAAAAAAAAAAAAAAAAAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAswQAAAAA",[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "      "args": [][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "    },[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "    "firefox_profile": "UEsDBBQACAgIANxyG0sAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXTW/jNhC991cUPrVATCeb7mV7cpMsUCBoinWD7E2gqZHEmCJZDmnZ/75DyYo/JEv23nqKIg8/Zt6bN08BwSXWQfbLZOlMRf8x5BnUz1LnrOSq4g4YaL5UkE5ufs64Qvj195/CfmXKPcVY43xcUgBXvmj+ZxS0lmJkfXtyAcqCm1uLLB67xTmuWGacgIvXaVjTEy1DvoZ/zKPEFa2deNj4mcD1DbdWScG9NHq2mZYIGwHq6G33zWbafbfWKStx94MseQ4zq/Pd07uF/KY+svClap6s4lIfbVFiZVx6fFKpJscpavAUtWKF95bZQmKxncafLUecKtC5Lyi/T58/91fGAU/pTwoehIf0q3To5wSTULGk3oVTJE1JkG8SUThTQoLCSesTF3TiZRmX3N/2H+T5EhkxRb/oB2VwBLDUVFoZTiXkmgpGnCtM9VaAXhCRIon6l1u6lPUYD0tKk3I1QktYe2MUMnCOSGQ0GnXIxG76KHNtNFWthHIJblH/i8O5ICASdugNtYkDDFS3jC6aCMexuJ64xoL+Kmt8/r+0bRNUUjcZJbQZOM1VZOvV6pFF3n4Lur+aFSxTJ6l8CRcCiK9BE7RIfE8EOI+9UH9QUSLluIX06e528Zeh1oiV/60/mF6lL/pNaiIw3t0ySQeZ12/PESu+NMF/WSquV5NuUzUJJVyp5B2TWH8bS9d/t42VxCeKZVUhPSiJnjb4N0h3juqR5yvp2U4u2rai5CLZBwugOAFDHT7cSxgbM1hWkCxY2jupQIkoEcFFSCdn8P9o9MwoEqJnyqRLgEgNXfcQC5bYAEwTDtn2lUKuHjjBxvOeBnMBEZz0W6KVAnpi6J0UPjFO5lIn1hCxt8ONq6EiEWK75AegP7poszOLLxdhWcpaOP6uX85r5l42YHu3Gcz4Q6t2KEYEKfKMlu+bltKsarJ3QTNZRnEw5c20VqZKltskhYwH5fvFtS27QLsj25VTgmLe2uv0rOvyaJDSbc9Qg5Hee7dlzXyp4z+NxV5kaDoZiDgb46B7NHok+6fX5zm7Z3xPjG5J3/maNzN6cKydwt828TB3W+shOEnVGqaRflxNL3J03Xo5eK8tyOAFm7aKVxve/gBpHnx0eTF4IYi0UVHvxk3KC9F7dO+lMmJVq+9FaCNwJ4od98aIUbKms1gaSnsReh9kSmWUxcnDl9kb4bOwXMBsQYXWMpSzGPVMUTg7gZMa9aK2OOKfoanqZNo/QTo6eiqg9/2Eapph2ioIsdKHEZO1iz2jjjvTOu5WD5wC1kZt7xRIRUM9brp5HlQusq3/EgetaJrRXpvaP/VD4zsvg7bVicyIgOOGOGa+m/FJLdgpwaDzJO71Aw58rsgukYEnFVQwRmEk86qYKECsHhvV/6P55XoDwXiaylgzPjJOez9Rf/TTVJk8jy93HwaDA/RAFOqMY4nI+y6livzXMi+8OmMZDpa2J17V7S1AvAHn6fvTee06J/RJ28dk/n0zeSbx28bBSYH3zjN+ClFf0gfNiPXcq5/KMNjGhO1N4X9QSwcIZnXtGH4EAABhEAAAUEsBAhQAFAAICAgA3HIbS2Z17Rh+BAAAYRAAAAcAAAAAAAAAAAAAAAAAAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAswQAAAAA"[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "  },[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "  "capabilities": {[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "      "moz:firefoxOptions": {[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "        "profile": "UEsDBBQACAgIANxyG0sAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXTW/jNhC991cUPrVATCeb7mV7cpMsUCBoinWD7E2gqZHEmCJZDmnZ/75DyYo/JEv23nqKIg8/Zt6bN08BwSXWQfbLZOlMRf8x5BnUz1LnrOSq4g4YaL5UkE5ufs64Qvj195/CfmXKPcVY43xcUgBXvmj+ZxS0lmJkfXtyAcqCm1uLLB67xTmuWGacgIvXaVjTEy1DvoZ/zKPEFa2deNj4mcD1DbdWScG9NHq2mZYIGwHq6G33zWbafbfWKStx94MseQ4zq/Pd07uF/KY+svClap6s4lIfbVFiZVx6fFKpJscpavAUtWKF95bZQmKxncafLUecKtC5Lyi/T58/91fGAU/pTwoehIf0q3To5wSTULGk3oVTJE1JkG8SUThTQoLCSesTF3TiZRmX3N/2H+T5EhkxRb/oB2VwBLDUVFoZTiXkmgpGnCtM9VaAXhCRIon6l1u6lPUYD0tKk3I1QktYe2MUMnCOSGQ0GnXIxG76KHNtNFWthHIJblH/i8O5ICASdugNtYkDDFS3jC6aCMexuJ64xoL+Kmt8/r+0bRNUUjcZJbQZOM1VZOvV6pFF3n4Lur+aFSxTJ6l8CRcCiK9BE7RIfE8EOI+9UH9QUSLluIX06e528Zeh1oiV/60/mF6lL/pNaiIw3t0ySQeZ12/PESu+NMF/WSquV5NuUzUJJVyp5B2TWH8bS9d/t42VxCeKZVUhPSiJnjb4N0h3juqR5yvp2U4u2rai5CLZBwugOAFDHT7cSxgbM1hWkCxY2jupQIkoEcFFSCdn8P9o9MwoEqJnyqRLgEgNXfcQC5bYAEwTDtn2lUKuHjjBxvOeBnMBEZz0W6KVAnpi6J0UPjFO5lIn1hCxt8ONq6EiEWK75AegP7poszOLLxdhWcpaOP6uX85r5l42YHu3Gcz4Q6t2KEYEKfKMlu+bltKsarJ3QTNZRnEw5c20VqZKltskhYwH5fvFtS27QLsj25VTgmLe2uv0rOvyaJDSbc9Qg5Hee7dlzXyp4z+NxV5kaDoZiDgb46B7NHok+6fX5zm7Z3xPjG5J3/maNzN6cKydwt828TB3W+shOEnVGqaRflxNL3J03Xo5eK8tyOAFm7aKVxve/gBpHnx0eTF4IYi0UVHvxk3KC9F7dO+lMmJVq+9FaCNwJ4od98aIUbKms1gaSnsReh9kSmWUxcnDl9kb4bOwXMBsQYXWMpSzGPVMUTg7gZMa9aK2OOKfoanqZNo/QTo6eiqg9/2Eapph2ioIsdKHEZO1iz2jjjvTOu5WD5wC1kZt7xRIRUM9brp5HlQusq3/EgetaJrRXpvaP/VD4zsvg7bVicyIgOOGOGa+m/FJLdgpwaDzJO71Aw58rsgukYEnFVQwRmEk86qYKECsHhvV/6P55XoDwXiaylgzPjJOez9Rf/TTVJk8jy93HwaDA/RAFOqMY4nI+y6livzXMi+8OmMZDpa2J17V7S1AvAHn6fvTee06J/RJ28dk/n0zeSbx28bBSYH3zjN+ClFf0gfNiPXcq5/KMNjGhO1N4X9QSwcIZnXtGH4EAABhEAAAUEsBAhQAFAAICAgA3HIbS2Z17Rh+BAAAYRAAAAcAAAAAAAAAAAAAAAAAAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAswQAAAAA",[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "        "args": [][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "      },[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "      "firefox_profile": "UEsDBBQACAgIANxyG0sAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXTW/jNhC991cUPrVATCeb7mV7cpMsUCBoinWD7E2gqZHEmCJZDmnZ/75DyYo/JEv23nqKIg8/Zt6bN08BwSXWQfbLZOlMRf8x5BnUz1LnrOSq4g4YaL5UkE5ufs64Qvj195/CfmXKPcVY43xcUgBXvmj+ZxS0lmJkfXtyAcqCm1uLLB67xTmuWGacgIvXaVjTEy1DvoZ/zKPEFa2deNj4mcD1DbdWScG9NHq2mZYIGwHq6G33zWbafbfWKStx94MseQ4zq/Pd07uF/KY+svClap6s4lIfbVFiZVx6fFKpJscpavAUtWKF95bZQmKxncafLUecKtC5Lyi/T58/91fGAU/pTwoehIf0q3To5wSTULGk3oVTJE1JkG8SUThTQoLCSesTF3TiZRmX3N/2H+T5EhkxRb/oB2VwBLDUVFoZTiXkmgpGnCtM9VaAXhCRIon6l1u6lPUYD0tKk3I1QktYe2MUMnCOSGQ0GnXIxG76KHNtNFWthHIJblH/i8O5ICASdugNtYkDDFS3jC6aCMexuJ64xoL+Kmt8/r+0bRNUUjcZJbQZOM1VZOvV6pFF3n4Lur+aFSxTJ6l8CRcCiK9BE7RIfE8EOI+9UH9QUSLluIX06e528Zeh1oiV/60/mF6lL/pNaiIw3t0ySQeZ12/PESu+NMF/WSquV5NuUzUJJVyp5B2TWH8bS9d/t42VxCeKZVUhPSiJnjb4N0h3juqR5yvp2U4u2rai5CLZBwugOAFDHT7cSxgbM1hWkCxY2jupQIkoEcFFSCdn8P9o9MwoEqJnyqRLgEgNXfcQC5bYAEwTDtn2lUKuHjjBxvOeBnMBEZz0W6KVAnpi6J0UPjFO5lIn1hCxt8ONq6EiEWK75AegP7poszOLLxdhWcpaOP6uX85r5l42YHu3Gcz4Q6t2KEYEKfKMlu+bltKsarJ3QTNZRnEw5c20VqZKltskhYwH5fvFtS27QLsj25VTgmLe2uv0rOvyaJDSbc9Qg5Hee7dlzXyp4z+NxV5kaDoZiDgb46B7NHok+6fX5zm7Z3xPjG5J3/maNzN6cKydwt828TB3W+shOEnVGqaRflxNL3J03Xo5eK8tyOAFm7aKVxve/gBpHnx0eTF4IYi0UVHvxk3KC9F7dO+lMmJVq+9FaCNwJ4od98aIUbKms1gaSnsReh9kSmWUxcnDl9kb4bOwXMBsQYXWMpSzGPVMUTg7gZMa9aK2OOKfoanqZNo/QTo6eiqg9/2Eapph2ioIsdKHEZO1iz2jjjvTOu5WD5wC1kZt7xRIRUM9brp5HlQusq3/EgetaJrRXpvaP/VD4zsvg7bVicyIgOOGOGa+m/FJLdgpwaDzJO71Aw58rsgukYEnFVQwRmEk86qYKECsHhvV/6P55XoDwXiaylgzPjJOez9Rf/TTVJk8jy93HwaDA/RAFOqMY4nI+y6livzXMi+8OmMZDpa2J17V7S1AvAHn6fvTee06J/RJ28dk/n0zeSbx28bBSYH3zjN+ClFf0gfNiPXcq5/KMNjGhO1N4X9QSwcIZnXtGH4EAABhEAAAUEsBAhQAFAAICAgA3HIbS2Z17Rh+BAAAYRAAAAcAAAAAAAAAAAAAAAAAAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAswQAAAAA"[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "    },[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "    "firstMatch": [[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "      {[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "        "moz:firefoxOptions": {[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "          "profile": "UEsDBBQACAgIANxyG0sAAAAAAAAAAAAAAAAHAAAAdXNlci5qc9VXTW/jNhC991cUPrVATCeb7mV7cpMsUCBoinWD7E2gqZHEmCJZDmnZ/75DyYo/JEv23nqKIg8/Zt6bN08BwSXWQfbLZOlMRf8x5BnUz1LnrOSq4g4YaL5UkE5ufs64Qvj195/CfmXKPcVY43xcUgBXvmj+ZxS0lmJkfXtyAcqCm1uLLB67xTmuWGacgIvXaVjTEy1DvoZ/zKPEFa2deNj4mcD1DbdWScG9NHq2mZYIGwHq6G33zWbafbfWKStx94MseQ4zq/Pd07uF/KY+svClap6s4lIfbVFiZVx6fFKpJscpavAUtWKF95bZQmKxncafLUecKtC5Lyi/T58/91fGAU/pTwoehIf0q3To5wSTULGk3oVTJE1JkG8SUThTQoLCSesTF3TiZRmX3N/2H+T5EhkxRb/oB2VwBLDUVFoZTiXkmgpGnCtM9VaAXhCRIon6l1u6lPUYD0tKk3I1QktYe2MUMnCOSGQ0GnXIxG76KHNtNFWthHIJblH/i8O5ICASdugNtYkDDFS3jC6aCMexuJ64xoL+Kmt8/r+0bRNUUjcZJbQZOM1VZOvV6pFF3n4Lur+aFSxTJ6l8CRcCiK9BE7RIfE8EOI+9UH9QUSLluIX06e528Zeh1oiV/60/mF6lL/pNaiIw3t0ySQeZ12/PESu+NMF/WSquV5NuUzUJJVyp5B2TWH8bS9d/t42VxCeKZVUhPSiJnjb4N0h3juqR5yvp2U4u2rai5CLZBwugOAFDHT7cSxgbM1hWkCxY2jupQIkoEcFFSCdn8P9o9MwoEqJnyqRLgEgNXfcQC5bYAEwTDtn2lUKuHjjBxvOeBnMBEZz0W6KVAnpi6J0UPjFO5lIn1hCxt8ONq6EiEWK75AegP7poszOLLxdhWcpaOP6uX85r5l42YHu3Gcz4Q6t2KEYEKfKMlu+bltKsarJ3QTNZRnEw5c20VqZKltskhYwH5fvFtS27QLsj25VTgmLe2uv0rOvyaJDSbc9Qg5Hee7dlzXyp4z+NxV5kaDoZiDgb46B7NHok+6fX5zm7Z3xPjG5J3/maNzN6cKydwt828TB3W+shOEnVGqaRflxNL3J03Xo5eK8tyOAFm7aKVxve/gBpHnx0eTF4IYi0UVHvxk3KC9F7dO+lMmJVq+9FaCNwJ4od98aIUbKms1gaSnsReh9kSmWUxcnDl9kb4bOwXMBsQYXWMpSzGPVMUTg7gZMa9aK2OOKfoanqZNo/QTo6eiqg9/2Eapph2ioIsdKHEZO1iz2jjjvTOu5WD5wC1kZt7xRIRUM9brp5HlQusq3/EgetaJrRXpvaP/VD4zsvg7bVicyIgOOGOGa+m/FJLdgpwaDzJO71Aw58rsgukYEnFVQwRmEk86qYKECsHhvV/6P55XoDwXiaylgzPjJOez9Rf/TTVJk8jy93HwaDA/RAFOqMY4nI+y6livzXMi+8OmMZDpa2J17V7S1AvAHn6fvTee06J/RJ28dk/n0zeSbx28bBSYH3zjN+ClFf0gfNiPXcq5/KMNjGhO1N4X9QSwcIZnXtGH4EAABhEAAAUEsBAhQAFAAICAgA3HIbS2Z17Rh+BAAAYRAAAAcAAAAAAAAAAAAAAAAAAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAswQAAAAA",[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "          "args": [][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "        }[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "      }[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "    ][\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "  }[\n]"
+27/08/2017 14:22:57 org.apache.http.wire http-outgoing-0 >> "}"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-0 << "Connection: close[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-0 << "Content-Length: 477[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-0 << "Date: Sun, 27 Aug 2017 18:23:00 GMT[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-0 << "{"value": {"sessionId":"083af8a6-4d15-4bba-9196-287e69ad708c","capabilities":{"acceptInsecureCerts":false,"browserName":"firefox","browserVersion":"55.0.3","moz:accessibilityChecks":false,"moz:processID":10140,"moz:profile":"C:\\Users\\Raja\\AppData\\Local\\Temp\\rust_mozprofile.ZLqv7MfJFDLm","pageLoadStrategy":"normal","platformName":"windows_nt","platformVersion":"10.0","rotatable":false,"specificationLevel":0,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000}}}}"
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-0 << Connection: close
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-0 << Content-Type: application/json; charset=utf-8
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-0 << Cache-Control: no-cache
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-0 << Content-Length: 477
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-0 << Date: Sun, 27 Aug 2017 18:23:00 GMT
+27/08/2017 14:23:00 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: Close connection
+27/08/2017 14:23:00 org.apache.http.impl.execchain.MainClientExec Connection discarded
+27/08/2017 14:23:00 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:24722][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+27/08/2017 14:23:00 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+27/08/2017 14:23:00 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+27/08/2017 14:23:00 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:24722][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+27/08/2017 14:23:00 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 1][route: {}->http://localhost:24722][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+27/08/2017 14:23:00 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:24722
+27/08/2017 14:23:00 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:24722
+27/08/2017 14:23:00 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:52534<->127.0.0.1:24722
+27/08/2017 14:23:00 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-1: set socket timeout to 10800000
+27/08/2017 14:23:00 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/083af8a6-4d15-4bba-9196-287e69ad708c/url HTTP/1.1
+27/08/2017 14:23:00 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+27/08/2017 14:23:00 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-1 >> POST /session/083af8a6-4d15-4bba-9196-287e69ad708c/url HTTP/1.1
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-1 >> Content-Length: 63
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-1 >> Host: localhost:24722
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-1 >> Connection: Keep-Alive
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+27/08/2017 14:23:00 org.apache.http.headers http-outgoing-1 >> Accept-Encoding: gzip,deflate
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-1 >> "POST /session/083af8a6-4d15-4bba-9196-287e69ad708c/url HTTP/1.1[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-1 >> "Content-Length: 63[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-1 >> "Host: localhost:24722[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-1 >> "[\r][\n]"
+27/08/2017 14:23:00 org.apache.http.wire http-outgoing-1 >> "{"url":"http://toolsqa.wpengine.com/automation-practice-form/"}"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-1 << "Connection: close[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-1 << "Cache-Control: no-cache[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-1 << "Content-Length: 13[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-1 << "Date: Sun, 27 Aug 2017 18:23:10 GMT[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-1 << "[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-1 << "{"value": {}}"
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-1 << HTTP/1.1 200 OK
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-1 << Connection: close
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-1 << Content-Type: application/json; charset=utf-8
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-1 << Cache-Control: no-cache
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-1 << Content-Length: 13
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-1 << Date: Sun, 27 Aug 2017 18:23:10 GMT
+27/08/2017 14:23:10 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-1: Close connection
+27/08/2017 14:23:10 org.apache.http.impl.execchain.MainClientExec Connection discarded
+27/08/2017 14:23:10 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 1][route: {}->http://localhost:24722][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+27/08/2017 14:23:10 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+27/08/2017 14:23:10 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+27/08/2017 14:23:10 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:24722][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+27/08/2017 14:23:10 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 2][route: {}->http://localhost:24722][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+27/08/2017 14:23:10 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:24722
+27/08/2017 14:23:10 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:24722
+27/08/2017 14:23:10 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:52662<->127.0.0.1:24722
+27/08/2017 14:23:10 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-2: set socket timeout to 10800000
+27/08/2017 14:23:10 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/083af8a6-4d15-4bba-9196-287e69ad708c/window/maximize HTTP/1.1
+27/08/2017 14:23:10 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+27/08/2017 14:23:10 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 >> POST /session/083af8a6-4d15-4bba-9196-287e69ad708c/window/maximize HTTP/1.1
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 >> Content-Type: application/json; charset=utf-8
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 >> Content-Length: 2
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 >> Host: localhost:24722
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 >> Connection: Keep-Alive
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 >> Accept-Encoding: gzip,deflate
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 >> "POST /session/083af8a6-4d15-4bba-9196-287e69ad708c/window/maximize HTTP/1.1[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 >> "Content-Length: 2[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 >> "Host: localhost:24722[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 >> "[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 >> "{}"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 << "Connection: close[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 << "Cache-Control: no-cache[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 << "Content-Length: 58[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 << "Date: Sun, 27 Aug 2017 18:23:10 GMT[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 << "[\r][\n]"
+27/08/2017 14:23:10 org.apache.http.wire http-outgoing-2 << "{"value": {"x":4.0,"y":4.0,"width":1229.0,"height":655.0}}"
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 << HTTP/1.1 200 OK
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 << Connection: close
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 << Content-Type: application/json; charset=utf-8
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 << Cache-Control: no-cache
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 << Content-Length: 58
+27/08/2017 14:23:10 org.apache.http.headers http-outgoing-2 << Date: Sun, 27 Aug 2017 18:23:10 GMT
+27/08/2017 14:23:10 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-2: Close connection
+27/08/2017 14:23:10 org.apache.http.impl.execchain.MainClientExec Connection discarded
+27/08/2017 14:23:10 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 2][route: {}->http://localhost:24722][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+27/08/2017 14:23:11 appLog Method run_cukes is Failed From Test null
+27/08/2017 14:23:11 appLog Method Cucumber_Demo is Finished
