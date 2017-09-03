@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: toolsqa.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Testing on toolsQA site</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Testing on toolsQA site</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login (passed : 11s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  PerformOnToolsQAPage (passed : 5s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="41" started-at="2017-09-03T22:13:43Z" finished-at="2017-09-03T22:13:43Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="41" started-at="2017-09-03T22:13:43Z" finished-at="2017-09-03T22:13:43Z">
+      <class name="grpTesting.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(grpTesting.AppTest)]" name="testApp" duration-ms="2" started-at="2017-09-03T18:13:43Z" finished-at="2017-09-03T18:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- grpTesting.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

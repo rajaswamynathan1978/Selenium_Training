@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14252" started-at="2017-09-03T21:25:15Z" finished-at="2017-09-03T21:25:29Z">
+    <groups>
+    </groups>
+    <test name="FireFox-Test" duration-ms="14252" started-at="2017-09-03T21:25:15Z" finished-at="2017-09-03T21:25:29Z">
+      <class name="stepDefinition.Practice_Automation_ToolsQA_StepDef">
+        <test-method status="PASS" signature="automationPractice()[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_StepDef@67784306]" name="automationPractice" duration-ms="9576" started-at="2017-09-03T17:25:15Z" finished-at="2017-09-03T17:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationPractice -->
+        <test-method status="PASS" signature="performOnPage()[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_StepDef@67784306]" name="performOnPage" duration-ms="4657" started-at="2017-09-03T17:25:24Z" finished-at="2017-09-03T17:25:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performOnPage -->
+      </class> <!-- stepDefinition.Practice_Automation_ToolsQA_StepDef -->
+    </test> <!-- FireFox-Test -->
+  </suite> <!-- Suite -->
+</testng-results>
