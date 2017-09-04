@@ -104,7 +104,7 @@ public class Practice_Automation_ToolsQA_Repo {
 	public void selectContinents(String continent)
 	{
 		Select dropdown = new Select(Driver.findElement(By.id("continents")));
-		dropdown.selectByIndex(4);
+		dropdown.selectByValue(continent);
 		mylog.debug("Value "+continent+" is selected ");
 	}
 	
