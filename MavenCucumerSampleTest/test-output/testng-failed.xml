@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="browser" value="Chrome"/>
-  <test name="InternetExplorer-Test(failed)">
-    <parameter name="browser" value="InternetExplorer"/>
+  <parameter name="browser" value="FireFox"/>
+  <test name="FireFox-Test(failed)">
+    <parameter name="browser" value="FireFox"/>
     <classes>
       <class name="stepDefinition.Practice_Automation_ToolsQA_StepDef">
         <methods>
@@ -11,5 +11,5 @@
         </methods>
       </class> <!-- stepDefinition.Practice_Automation_ToolsQA_StepDef -->
     </classes>
-  </test> <!-- InternetExplorer-Test(failed) -->
+  </test> <!-- FireFox-Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

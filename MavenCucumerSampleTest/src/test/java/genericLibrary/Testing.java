@@ -3,6 +3,8 @@ package genericLibrary;
 import java.io.File;
 import java.io.IOException;
 
+import org.codehaus.plexus.util.FileUtils;
+
 public class Testing {
 	
 	Testing()
@@ -14,6 +16,7 @@ public class Testing {
 	
 	public static void main(String args[]) throws IOException
 	{
+		System.out.println("99" + FileUtils.fileExists("TestData/TestData_Guru99Bank.xlsx"));
 		Testing t=new Testing();
 		Runtime.getRuntime().exec("AutoIt_Scripts/FileUpload.exe");
 	}
