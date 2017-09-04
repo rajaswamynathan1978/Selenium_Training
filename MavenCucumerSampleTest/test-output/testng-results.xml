@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24279" started-at="2017-09-04T14:58:41Z" finished-at="2017-09-04T14:59:05Z">
+  <suite name="Suite" duration-ms="57273" started-at="2017-09-04T16:02:01Z" finished-at="2017-09-04T16:02:59Z">
     <groups>
     </groups>
-    <test name="FireFox-Test" duration-ms="24279" started-at="2017-09-04T14:58:41Z" finished-at="2017-09-04T14:59:05Z">
+    <test name="FireFox-Test" duration-ms="57273" started-at="2017-09-04T16:02:01Z" finished-at="2017-09-04T16:02:59Z">
       <class name="stepDefinition.Practice_Automation_ToolsQA_StepDef">
-        <test-method status="PASS" signature="automationPractice(java.lang.String)[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_StepDef@210366b4]" name="automationPractice" duration-ms="9946" started-at="2017-09-04T10:58:41Z" finished-at="2017-09-04T10:58:50Z">
+        <test-method status="PASS" signature="automationPractice(java.lang.String)[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_StepDef@210366b4]" name="automationPractice" duration-ms="17930" started-at="2017-09-04T12:02:01Z" finished-at="2017-09-04T12:02:19Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationPractice -->
-        <test-method status="PASS" signature="performOnPage()[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_StepDef@210366b4]" name="performOnPage" duration-ms="14296" started-at="2017-09-04T10:58:51Z" finished-at="2017-09-04T10:59:05Z">
+        <test-method status="PASS" signature="performOnPage()[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_StepDef@210366b4]" name="performOnPage" duration-ms="39248" started-at="2017-09-04T12:02:19Z" finished-at="2017-09-04T12:02:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performOnPage -->
