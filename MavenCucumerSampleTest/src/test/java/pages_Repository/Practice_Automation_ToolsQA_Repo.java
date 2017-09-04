@@ -104,14 +104,14 @@ public class Practice_Automation_ToolsQA_Repo {
 	public void selectContinents(String continent)
 	{
 		Select dropdown = new Select(Driver.findElement(By.id("continents")));
-		dropdown.selectByIndex(5);
+		dropdown.selectByIndex(4);
 		mylog.debug("Value "+continent+" is selected ");
 	}
 	
 	public void upLoadFile(String FilePath) throws IOException
 	{
 		Driver.findElement(btnBrowse).click();
-		Runtime.getRuntime().exec("cmd "+FilePath);
+		Runtime.getRuntime().exec(FilePath);
 
 		mylog.debug("File Upload is success");
 	}

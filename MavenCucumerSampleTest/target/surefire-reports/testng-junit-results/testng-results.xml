@@ -11,18 +11,18 @@
       <![CDATA[<div "scenario">Scenario: Testing on toolsQA site</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Given  Login (passed : 11s)</div>]]>
+      <![CDATA[<div "result">Given  Login And User Enters &quot;FireFox&quot; (passed : 9s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">When  PerformOnToolsQAPage (passed : 5s)</div>]]>
+      <![CDATA[<div "result">When  PerformOnToolsQAPage (passed : 19s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="41" started-at="2017-09-03T22:13:43Z" finished-at="2017-09-03T22:13:43Z">
+  <suite name="Command line suite" duration-ms="47" started-at="2017-09-04T15:38:42Z" finished-at="2017-09-04T15:38:42Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="41" started-at="2017-09-03T22:13:43Z" finished-at="2017-09-03T22:13:43Z">
+    <test name="Command line test" duration-ms="47" started-at="2017-09-04T15:38:42Z" finished-at="2017-09-04T15:38:42Z">
       <class name="grpTesting.AppTest">
-        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(grpTesting.AppTest)]" name="testApp" duration-ms="2" started-at="2017-09-03T18:13:43Z" finished-at="2017-09-03T18:13:43Z">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(grpTesting.AppTest)]" name="testApp" duration-ms="3" started-at="2017-09-04T11:38:42Z" finished-at="2017-09-04T11:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->

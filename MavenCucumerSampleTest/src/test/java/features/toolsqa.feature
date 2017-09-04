@@ -23,5 +23,5 @@ Feature: Testing on toolsQA site
 
 @tag1
 Scenario: Testing on toolsQA site
-Given Login
+Given Login And User Enters "FireFox"
 When PerformOnToolsQAPage

@@ -2,16 +2,23 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12721" started-at="2017-09-04T00:01:52Z" finished-at="2017-09-04T00:02:05Z">
+  <suite name="Suite" duration-ms="24279" started-at="2017-09-04T14:58:41Z" finished-at="2017-09-04T14:59:05Z">
     <groups>
     </groups>
-    <test name="FireFox-Test" duration-ms="12721" started-at="2017-09-04T00:01:52Z" finished-at="2017-09-04T00:02:05Z">
+    <test name="FireFox-Test" duration-ms="24279" started-at="2017-09-04T14:58:41Z" finished-at="2017-09-04T14:59:05Z">
       <class name="stepDefinition.Practice_Automation_ToolsQA_StepDef">
-        <test-method status="PASS" signature="automationPractice()[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_StepDef@67784306]" name="automationPractice" duration-ms="8949" started-at="2017-09-03T20:01:52Z" finished-at="2017-09-03T20:02:01Z">
+        <test-method status="PASS" signature="automationPractice(java.lang.String)[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_StepDef@210366b4]" name="automationPractice" duration-ms="9946" started-at="2017-09-04T10:58:41Z" finished-at="2017-09-04T10:58:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationPractice -->
-        <test-method status="PASS" signature="performOnPage()[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_StepDef@67784306]" name="performOnPage" duration-ms="3753" started-at="2017-09-03T20:02:01Z" finished-at="2017-09-03T20:02:05Z">
+        <test-method status="PASS" signature="performOnPage()[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_StepDef@210366b4]" name="performOnPage" duration-ms="14296" started-at="2017-09-04T10:58:51Z" finished-at="2017-09-04T10:59:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performOnPage -->

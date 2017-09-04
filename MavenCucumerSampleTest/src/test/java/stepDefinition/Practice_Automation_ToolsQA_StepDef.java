@@ -48,8 +48,9 @@ public class Practice_Automation_ToolsQA_StepDef {
 	public Properties prop;
 	
 	@Test
-	@Given("^Login$")
-	public void automationPractice() 
+	@Parameters("browser")
+	@Given("^Login And User Enters \"(.*)\"$")
+	public void automationPractice(String browser) 
 	{
 	try
 	{
@@ -72,9 +73,11 @@ public class Practice_Automation_ToolsQA_StepDef {
 		driver = new InternetExplorerDriver(capability);
 		
 		}*/
-		
+		if(browser.equals("FireFox"))
+				{
 			System.setProperty(prop.getProperty("geckoDriver_Name"),prop.getProperty("geckoDriver_Path"));
 			driver = new FirefoxDriver();
+				}
 		/*else if(browser.equals("Chrome"))
 		{
 			File file1=new File("C:/Users/Raja/Downloads/chromedriver_win32 (1)/chromedriver.exe");
@@ -129,7 +132,7 @@ public class Practice_Automation_ToolsQA_StepDef {
 		ObjPractice.selectYearsOfExperience(arrData[3]);
 		ObjPractice.setDate(arrData[4]);
 		ObjPractice.selectProfession(arrData[5]);
-		/*try {
+		try {
 			System.out.println("File Upload File : " + FileUtils.fileExists("AutoIt_Scripts/FileUpload.exe"));
 			ObjPractice.upLoadFile("AutoIt_Scripts/FileUpload.exe");
 		} catch (IOException e) {
@@ -139,12 +142,13 @@ public class Practice_Automation_ToolsQA_StepDef {
 		
 		try 
 		{
+			Thread.sleep(5000);
 			ObjPractice.downLoadFile("AutoIt_Scripts/FileDownload.exe");
 		} catch (IOException e) 
 		{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}*/
+		}
 		ObjPractice.selectAutomationTool(arrData[7]);
 		ObjPractice.selectContinents(arrData[8]);
 		try {

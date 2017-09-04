@@ -102,7 +102,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 26,
-  "name": "Login",
+  "name": "Login And User Enters \"FireFox\"",
   "keyword": "Given "
 });
 formatter.step({
@@ -111,17 +111,23 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Practice_Automation_ToolsQA_StepDef.automationPractice()"
+  "arguments": [
+    {
+      "val": "FireFox",
+      "offset": 23
+    }
+  ],
+  "location": "Practice_Automation_ToolsQA_StepDef.automationPractice(String)"
 });
 formatter.result({
-  "duration": 11015828951,
+  "duration": 9931808449,
   "status": "passed"
 });
 formatter.match({
   "location": "Practice_Automation_ToolsQA_StepDef.performOnPage()"
 });
 formatter.result({
-  "duration": 5318691807,
+  "duration": 19388510113,
   "status": "passed"
 });
 });

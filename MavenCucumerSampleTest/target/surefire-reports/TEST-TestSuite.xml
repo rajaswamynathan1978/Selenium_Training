@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="TestSuite" time="16.753" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="TestSuite" time="29.902" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
     <property name="java.vm.version" value="25.111-b14"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\WorkSpace\aftTesting"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\WorkSpace\MavenCucumerSampleTest"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\WorkSpace\aftTesting"/>
+    <property name="user.dir" value="C:\WorkSpace\MavenCucumerSampleTest"/>
     <property name="java.runtime.version" value="1.8.0_111-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
@@ -63,6 +63,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="runnerPackage.TestRunner" name="run_cukes" time="16.752"/>
-  <testcase classname="grpTesting.AppTest" name="testApp on testApp(grpTesting.AppTest)" time="0.001"/>
+  <testcase classname="runnerPackage.TestRunner" name="run_cukes" time="29.899"/>
+  <testcase classname="grpTesting.AppTest" name="testApp on testApp(grpTesting.AppTest)" time="0.003"/>
 </testsuite>
