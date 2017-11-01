@@ -1,0 +1,14 @@
+
+https://www.mozilla.org/en-US/firefox/releases/
+https://ftp.mozilla.org/pub/firefox/releases/53.0/win64/en-US/
+
+Key Press Events
+http://www.testingdiaries.com/selenium-ide-keypress-events/
+
+IDE - First Script
+
+Base URL : http://toolsqa.com/
+command : open , target : automation-practice-form/
+sendKeys,name=firstname,Raja
+sendKeys,name=lastname,S
+clickAndWait,id=sex-0
