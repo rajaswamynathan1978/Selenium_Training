@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7150" started-at="2017-12-24T03:54:01Z" finished-at="2017-12-24T03:54:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7150" started-at="2017-12-24T03:54:01Z" finished-at="2017-12-24T03:54:08Z">
+      <class name="stepDefinition.EA_StepDef">
+        <test-method status="PASS" signature="user_is_on_Home_Page()[pri:0, instance:stepDefinition.EA_StepDef@6dc17b83]" name="user_is_on_Home_Page" duration-ms="5835" started-at="2017-12-23T22:54:01Z" finished-at="2017-12-23T22:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_is_on_Home_Page -->
+        <test-method status="PASS" signature="user_Navigate_to_LogIn_Page()[pri:1, instance:stepDefinition.EA_StepDef@6dc17b83]" name="user_Navigate_to_LogIn_Page" duration-ms="28" started-at="2017-12-23T22:54:06Z" finished-at="2017-12-23T22:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_Navigate_to_LogIn_Page -->
+        <test-method status="PASS" signature="user_enters_UserName_and_Password()[pri:2, instance:stepDefinition.EA_StepDef@6dc17b83]" name="user_enters_UserName_and_Password" duration-ms="1243" started-at="2017-12-23T22:54:06Z" finished-at="2017-12-23T22:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_UserName_and_Password -->
+        <test-method status="PASS" signature="message_displayed_Login_Successfully()[pri:3, instance:stepDefinition.EA_StepDef@6dc17b83]" name="message_displayed_Login_Successfully" duration-ms="9" started-at="2017-12-23T22:54:08Z" finished-at="2017-12-23T22:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- message_displayed_Login_Successfully -->
+      </class> <!-- stepDefinition.EA_StepDef -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
