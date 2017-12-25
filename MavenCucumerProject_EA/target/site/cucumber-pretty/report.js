@@ -112,7 +112,7 @@ formatter.step({
 });
 formatter.step({
   "line": 29,
-  "name": "User enters \"raja\" and \"test123\"",
+  "name": "User enters UserName and Password",
   "keyword": "And "
 });
 formatter.step({
@@ -120,42 +120,116 @@ formatter.step({
   "name": "Verify Login is Successful",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 31,
+  "name": "User Selects Title",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "User Selects Initial",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "User Enters FirstName",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "User Enters MiddleName",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "User Selects Gender",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "User Selects Language",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "User Click on Save",
+  "keyword": "And "
+});
 formatter.match({
   "location": "EA_StepDef.user_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 5737688701,
+  "duration": 3223166156,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.user_Navigate_to_LogIn_Page()"
 });
 formatter.result({
-  "duration": 21734303,
+  "duration": 2020164322,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "raja",
-      "offset": 13
-    },
-    {
-      "val": "test123",
-      "offset": 24
-    }
-  ],
-  "location": "EA_StepDef.user_enters_UserName_and_Password(String,String)"
+  "location": "EA_StepDef.user_enters_UserName_and_Password()"
 });
 formatter.result({
-  "duration": 1166184560,
+  "duration": 1390350945,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.message_displayed_Login_Successfully()"
 });
 formatter.result({
-  "duration": 10008091,
+  "duration": 5016436524,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EA_StepDef.selectTitle()"
+});
+formatter.result({
+  "duration": 5149903625,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EA_StepDef.setInitial()"
+});
+formatter.result({
+  "duration": 67310538,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EA_StepDef.setFirstName()"
+});
+formatter.result({
+  "duration": 63403777,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EA_StepDef.setMiddleName()"
+});
+formatter.result({
+  "duration": 51796876,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EA_StepDef.selectSex()"
+});
+formatter.result({
+  "duration": 60051287,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EA_StepDef.selectLanguage()"
+});
+formatter.result({
+  "duration": 57093858,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EA_StepDef.clickSave()"
+});
+formatter.result({
+  "duration": 55350452,
   "status": "passed"
 });
 });

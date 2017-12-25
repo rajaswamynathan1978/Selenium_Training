@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EA_Suite" duration-ms="5064" started-at="2017-12-25T23:21:55Z" finished-at="2017-12-25T23:22:00Z">
+    <groups>
+    </groups>
+    <test name="Execute Automation Maven TestNG Test " duration-ms="5064" started-at="2017-12-25T23:21:55Z" finished-at="2017-12-25T23:22:00Z">
+      <class name="stepDefinition.EA_StepDef">
+        <test-method status="PASS" signature="EA_StepDef1()[pri:0, instance:stepDefinition.EA_StepDef@3bfdc050]" name="EA_StepDef1" duration-ms="3207" started-at="2017-12-25T18:21:55Z" finished-at="2017-12-25T18:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EA_StepDef1 -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:stepDefinition.EA_StepDef@3bfdc050]" name="Login" duration-ms="1422" started-at="2017-12-25T18:21:58Z" finished-at="2017-12-25T18:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="perform()[pri:1, instance:stepDefinition.EA_StepDef@3bfdc050]" name="perform" duration-ms="413" started-at="2017-12-25T18:22:00Z" finished-at="2017-12-25T18:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- perform -->
+      </class> <!-- stepDefinition.EA_StepDef -->
+    </test> <!-- Execute Automation Maven TestNG Test  -->
+  </suite> <!-- EA_Suite -->
+</testng-results>

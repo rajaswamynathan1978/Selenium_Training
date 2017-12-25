@@ -3,15 +3,16 @@ package pages_Repository;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import cucumber.api.java.en.And;
 public class Registration_EA_Repo {
 	
-	WebDriver Driver;
+	public WebDriver Driver;
 	
 
-	By cboTitile=By.name("TitleId");
+	By cboTitle=By.name("TitleId");
 	By txtInitial=By.name("Initial");
 	By txtFirstName=By.name("FirstName");
 	By txtMiddleName=By.name("MiddleName");
@@ -23,7 +24,8 @@ public class Registration_EA_Repo {
 	
 	// Log File Settings
 	
-	final static Logger mylog = Logger.getLogger("appLog");
+	//final static Logger mylog = Logger.getLogger("appLog");
+	final static Logger mylog = Logger.getLogger(Registration_EA_Repo.class.getName());
 	
 	public Registration_EA_Repo(WebDriver Driver)
 	{
@@ -37,10 +39,11 @@ public class Registration_EA_Repo {
 			mylog.info("False. Page Not Found");
 	}
 
-	public void selectTitile(String title)
+	public void selectTitle(String title)
 	{
-		Driver.findElement(cboTitile).sendKeys(title);
-		mylog.info("Title "+ title + "is set");
+		Select dropdown_Title = new Select(Driver.findElement(cboTitle));
+		dropdown_Title.selectByIndex(1);
+		mylog.info("Title "+ title + "is selected");
 	}
 	
 

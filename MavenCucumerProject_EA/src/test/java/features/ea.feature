@@ -28,6 +28,13 @@ Scenario: Successful Login with Valid Credentials
 	When User Navigate to LogIn Page then verify it
 	And User enters UserName and Password
 	Then Verify Login is Successful
+	And User Selects Title
+	And User Selects Initial
+	And User Enters FirstName
+	And User Enters MiddleName
+	And User Selects Gender
+	And User Selects Language
+	And User Click on Save
 	
 	
 	

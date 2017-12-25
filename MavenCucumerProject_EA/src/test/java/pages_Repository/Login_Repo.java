@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Login_Repo {
 	
-	WebDriver driver;
+	public WebDriver driver;
 	By userId=By.name("UserName");
 	By password=By.name("Password");
 	By btnSubmit =By.cssSelector("input[name=Login]");

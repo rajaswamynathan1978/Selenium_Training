@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EA_Suite]">
+  <test name="Execute Automation Maven TestNG Test ">
+    <classes>
+      <class name="stepDefinition.EA_StepDef"/>
+    </classes>
+  </test> <!-- Execute Automation Maven TestNG Test  -->
+</suite> <!-- Failed suite [EA_Suite] -->

@@ -1,5 +1,7 @@
 package stepDefinition;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
@@ -9,11 +11,12 @@ import java.util.concurrent.TimeUnit;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.Assert;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import cucumber.api.java.en.And;
@@ -41,10 +44,11 @@ public class EA_StepDef {
 	public Properties prop;
 	Login_Repo Obj;
 	Registration_EA_Repo Obj1;
-		
-	@Test(priority=0)
-	@Given("^User is on Home Page$")
-	public void user_is_on_Home_Page() throws Throwable {
+	
+	/*@BeforeTest
+	public void EA_StepDef1() throws IOException
+	{
+		System.out.println(" I am here-0");
 		prop = new Properties();
 		InputStream input = null;
 		input = new FileInputStream("src/test/resources/config.properties");
@@ -55,14 +59,37 @@ public class EA_StepDef {
 	    driver.get("http://executeautomation.com/demosite/Login.html");
 	    Obj=new Login_Repo(driver);
 	    Obj1=new Registration_EA_Repo(driver);
+	    System.out.println(" I am here-1");
+	}*/
+
+		
+	@BeforeTest
+	@Given("^User is on Home Page$")
+	public void user_is_on_Home_Page() throws Throwable {
+		prop = new Properties();
+		InputStream input = null;
+		input = new FileInputStream("src/test/resources/config.properties");
+		prop.load(input);
+		//System.setProperty(prop.getProperty("geckoDriver_Name"),prop.getProperty("geckoDriver_Path"));
+		System.setProperty(prop.getProperty("Browser_Type"),prop.getProperty("Chrome_Driver_Path"));
+		
+		//DesiredCapabilities dc = DesiredCapabilities.firefox();
+		//dc.setCapability("marionette", true);
+		driver =  new ChromeDriver();
+		//driver = new FirefoxDriver(dc);
+	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	    driver.get("http://executeautomation.com/demosite/Login.html");
+	    Obj=new Login_Repo(driver);
+	    Obj1=new Registration_EA_Repo(driver);
 	}
-	@Test(priority=1)
+	@Test
 	@When("^User Navigate to LogIn Page then verify it$")
 	public void user_Navigate_to_LogIn_Page() throws Throwable {
+		Thread.sleep(2000);
 		System.out.println(driver.getTitle().toString());
 		Assert.assertEquals(driver.getTitle().toString(),"Execute Automation");
 	}
-	@Test(priority=2)
+	@Test
 	
 	//@Parameters({"UserName","Password"})
 	@And("^User enters UserName and Password")
@@ -72,58 +99,61 @@ public class EA_StepDef {
 		Obj.setPassword("test123");
 		Obj.clickSubmit();
 	}
-	@Test(priority=3)
+	@Test
 	@Then("^Verify Login is Successful$")
 	public void message_displayed_Login_Successfully() throws Throwable {
+		Thread.sleep(5000);
 		Assert.assertEquals(driver.getTitle().toString(),"Execute Automation");
 	}
 	
-	@Test(priority=4)
+	@Test
 	@And("^User is on Registration Page$")
-	public void verifyPage()
+	public void verifyPage() throws InterruptedException
 	{
+		Thread.sleep(5000);
 		Obj1.verifyPage();
 	}
 	
-	@Test(priority=5)
-	@And("^User Selects Titile$")
-	public void selectTitile()
+	@Test
+	@And("^User Selects Title$")
+	public void selectTitle() throws InterruptedException
 	{
-		Obj1.selectTitile("Mr.");
+		Thread.sleep(5000);
+		Obj1.selectTitle("Mr.");
 	}
 	
-	@Test(priority=6)	
+	@Test	
 	@And("^User Selects Initial$")
 	public void setInitial()
 	{
 		Obj1.setInitial("S");
 	}
-	@Test(priority=7)
+	@Test
 	@And("^User Enters FirstName$")	
 	public void setFirstName()
 	{
 		Obj1.setFirstName("Raja");
 	}
-	@Test(priority=8)
+	@Test
 	@And("^User Enters MiddleName$")	
 	public void setMiddleName()
 	{
 		Obj1.setMiddleName("S");
 	}
-	@Test(priority=9)
+	@Test
 	@And("^User Selects Gender$")	
 	public void selectSex()
 	{
 			Obj1.selectSex("m");	
 	}
-	@Test(priority=10)
+	@Test
 	@And("^User Selects Language$")	
 	public void selectLanguage()
 	{
 		Obj1.selectLanguage("hindi");
 				
 	}
-	@Test(priority=11)
+	@Test
 	@And("^User Click on Save$")	
 	public void clickSave()
 	{
