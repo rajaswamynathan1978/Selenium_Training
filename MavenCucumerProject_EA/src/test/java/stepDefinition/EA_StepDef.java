@@ -23,6 +23,7 @@ import cucumber.api.java.en.When;
 import genericLibrary.Excel_Functions;
 import genericLibrary.SetFireFoxProfile;
 import pages_Repository.Login_Repo;
+import pages_Repository.Registration_EA_Repo;
 
 public class EA_StepDef {
 	
@@ -36,10 +37,10 @@ public class EA_StepDef {
 	public WebDriver driver;
 	Excel_Functions ObjExcel;
 	SetFireFoxProfile ObjProfile;
-	pages_Repository.Practice_Automation_ToolsQA_Repo ObjPractice;
 	Map<String,String> inputData_Dict=new HashMap<String,String>();
 	public Properties prop;
 	Login_Repo Obj;
+	Registration_EA_Repo Obj1;
 		
 	@Test(priority=0)
 	@Given("^User is on Home Page$")
@@ -53,6 +54,7 @@ public class EA_StepDef {
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	    driver.get("http://executeautomation.com/demosite/Login.html");
 	    Obj=new Login_Repo(driver);
+	    Obj1=new Registration_EA_Repo(driver);
 	}
 	@Test(priority=1)
 	@When("^User Navigate to LogIn Page then verify it$")
@@ -75,6 +77,59 @@ public class EA_StepDef {
 	public void message_displayed_Login_Successfully() throws Throwable {
 		Assert.assertEquals(driver.getTitle().toString(),"Execute Automation");
 	}
+	
+	@Test(priority=4)
+	@And("^User is on Registration Page$")
+	public void verifyPage()
+	{
+		Obj1.verifyPage();
+	}
+	
+	@Test(priority=5)
+	@And("^User Selects Titile$")
+	public void selectTitile()
+	{
+		Obj1.selectTitile("Mr.");
+	}
+	
+	@Test(priority=6)	
+	@And("^User Selects Initial$")
+	public void setInitial()
+	{
+		Obj1.setInitial("S");
+	}
+	@Test(priority=7)
+	@And("^User Enters FirstName$")	
+	public void setFirstName()
+	{
+		Obj1.setFirstName("Raja");
+	}
+	@Test(priority=8)
+	@And("^User Enters MiddleName$")	
+	public void setMiddleName()
+	{
+		Obj1.setMiddleName("S");
+	}
+	@Test(priority=9)
+	@And("^User Selects Gender$")	
+	public void selectSex()
+	{
+			Obj1.selectSex("m");	
+	}
+	@Test(priority=10)
+	@And("^User Selects Language$")	
+	public void selectLanguage()
+	{
+		Obj1.selectLanguage("hindi");
+				
+	}
+	@Test(priority=11)
+	@And("^User Click on Save$")	
+	public void clickSave()
+	{
+		Obj1.clickSave();
+	}	
+	
 /*	@Test
 	@Parameters("browser")
 	@Given("^Login And User Enters \"(.*)\"$")

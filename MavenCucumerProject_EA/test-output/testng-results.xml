@@ -1,28 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7150" started-at="2017-12-24T03:54:01Z" finished-at="2017-12-24T03:54:08Z">
+  <suite name="Default suite" duration-ms="7722" started-at="2017-12-25T17:12:07Z" finished-at="2017-12-25T17:12:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7150" started-at="2017-12-24T03:54:01Z" finished-at="2017-12-24T03:54:08Z">
+    <test name="Default test" duration-ms="7722" started-at="2017-12-25T17:12:07Z" finished-at="2017-12-25T17:12:15Z">
       <class name="stepDefinition.EA_StepDef">
-        <test-method status="PASS" signature="user_is_on_Home_Page()[pri:0, instance:stepDefinition.EA_StepDef@6dc17b83]" name="user_is_on_Home_Page" duration-ms="5835" started-at="2017-12-23T22:54:01Z" finished-at="2017-12-23T22:54:06Z">
+        <test-method status="PASS" signature="user_is_on_Home_Page()[pri:0, instance:stepDefinition.EA_StepDef@5ec0a365]" name="user_is_on_Home_Page" duration-ms="5786" started-at="2017-12-25T12:12:07Z" finished-at="2017-12-25T12:12:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_is_on_Home_Page -->
-        <test-method status="PASS" signature="user_Navigate_to_LogIn_Page()[pri:1, instance:stepDefinition.EA_StepDef@6dc17b83]" name="user_Navigate_to_LogIn_Page" duration-ms="28" started-at="2017-12-23T22:54:06Z" finished-at="2017-12-23T22:54:06Z">
+        <test-method status="PASS" signature="user_Navigate_to_LogIn_Page()[pri:1, instance:stepDefinition.EA_StepDef@5ec0a365]" name="user_Navigate_to_LogIn_Page" duration-ms="24" started-at="2017-12-25T12:12:13Z" finished-at="2017-12-25T12:12:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_Navigate_to_LogIn_Page -->
-        <test-method status="PASS" signature="user_enters_UserName_and_Password()[pri:2, instance:stepDefinition.EA_StepDef@6dc17b83]" name="user_enters_UserName_and_Password" duration-ms="1243" started-at="2017-12-23T22:54:06Z" finished-at="2017-12-23T22:54:08Z">
+        <test-method status="PASS" signature="user_enters_UserName_and_Password()[pri:2, instance:stepDefinition.EA_StepDef@5ec0a365]" name="user_enters_UserName_and_Password" duration-ms="1272" started-at="2017-12-25T12:12:13Z" finished-at="2017-12-25T12:12:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_enters_UserName_and_Password -->
-        <test-method status="PASS" signature="message_displayed_Login_Successfully()[pri:3, instance:stepDefinition.EA_StepDef@6dc17b83]" name="message_displayed_Login_Successfully" duration-ms="9" started-at="2017-12-23T22:54:08Z" finished-at="2017-12-23T22:54:08Z">
+        <test-method status="PASS" signature="message_displayed_Login_Successfully()[pri:3, instance:stepDefinition.EA_StepDef@5ec0a365]" name="message_displayed_Login_Successfully" duration-ms="17" started-at="2017-12-25T12:12:14Z" finished-at="2017-12-25T12:12:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- message_displayed_Login_Successfully -->
+        <test-method status="PASS" signature="verifyPage()[pri:4, instance:stepDefinition.EA_StepDef@5ec0a365]" name="verifyPage" duration-ms="13" started-at="2017-12-25T12:12:14Z" finished-at="2017-12-25T12:12:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+        <test-method status="PASS" signature="selectTitile()[pri:5, instance:stepDefinition.EA_StepDef@5ec0a365]" name="selectTitile" duration-ms="344" started-at="2017-12-25T12:12:14Z" finished-at="2017-12-25T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTitile -->
+        <test-method status="PASS" signature="setInitial()[pri:6, instance:stepDefinition.EA_StepDef@5ec0a365]" name="setInitial" duration-ms="40" started-at="2017-12-25T12:12:15Z" finished-at="2017-12-25T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setInitial -->
+        <test-method status="PASS" signature="setFirstName()[pri:7, instance:stepDefinition.EA_StepDef@5ec0a365]" name="setFirstName" duration-ms="42" started-at="2017-12-25T12:12:15Z" finished-at="2017-12-25T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFirstName -->
+        <test-method status="PASS" signature="setMiddleName()[pri:8, instance:stepDefinition.EA_StepDef@5ec0a365]" name="setMiddleName" duration-ms="38" started-at="2017-12-25T12:12:15Z" finished-at="2017-12-25T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMiddleName -->
+        <test-method status="PASS" signature="selectSex()[pri:9, instance:stepDefinition.EA_StepDef@5ec0a365]" name="selectSex" duration-ms="40" started-at="2017-12-25T12:12:15Z" finished-at="2017-12-25T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSex -->
+        <test-method status="PASS" signature="selectLanguage()[pri:10, instance:stepDefinition.EA_StepDef@5ec0a365]" name="selectLanguage" duration-ms="28" started-at="2017-12-25T12:12:15Z" finished-at="2017-12-25T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLanguage -->
+        <test-method status="PASS" signature="clickSave()[pri:11, instance:stepDefinition.EA_StepDef@5ec0a365]" name="clickSave" duration-ms="31" started-at="2017-12-25T12:12:15Z" finished-at="2017-12-25T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSave -->
       </class> <!-- stepDefinition.EA_StepDef -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
