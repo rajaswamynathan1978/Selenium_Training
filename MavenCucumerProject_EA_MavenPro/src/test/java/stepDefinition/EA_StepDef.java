@@ -1,4 +1,5 @@
 package stepDefinition;
+import org.testng.annotations.Test;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -18,10 +19,6 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
 import genericLibrary.Excel_Functions;
 import genericLibrary.SetFireFoxProfile;
 import pages_Repository.Login_Repo;
@@ -35,7 +32,7 @@ public class EA_StepDef {
 	private EventFiringWebDriver e_driver;
 	private genericLibrary.EventListener eventListener;
 	
-	
+
 	public WebDriver driver;
 	Excel_Functions ObjExcel;
 	SetFireFoxProfile ObjProfile;
@@ -70,14 +67,15 @@ public class EA_StepDef {
 		Obj.clickSubmit();
 	}
 	
-	@Test(priority=1)
+	@Test(priority=2)
 	public void perform()
 	{
 		Obj1.selectTitile("Mr.");
 		Obj1.setInitial("S");
 		Obj1.setFirstName("Raja");
 		Obj1.setMiddleName("R");
-		Obj1.selectSex("m");Obj1.selectLanguage("hindi");
+		Obj1.selectSex("m");
+		Obj1.selectLanguage("hindi");
 		Obj1.clickSave();
 	}
 

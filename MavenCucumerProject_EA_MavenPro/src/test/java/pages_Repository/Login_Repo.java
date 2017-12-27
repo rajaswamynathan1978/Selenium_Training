@@ -14,7 +14,7 @@ public class Login_Repo {
 	By btnSubmit =By.cssSelector("input[name=Login]");
 	//By btnSubmit=By.name("Login");
 	
-	final static Logger mylog = Logger.getLogger("al");
+	final static Logger mylog = Logger.getLogger("applog");
 	
 	public Login_Repo(WebDriver driver)
 	{

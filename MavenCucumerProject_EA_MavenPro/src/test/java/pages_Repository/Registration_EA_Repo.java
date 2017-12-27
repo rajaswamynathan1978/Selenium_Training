@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import cucumber.api.java.en.And;
 public class Registration_EA_Repo {
 	
 	public WebDriver Driver;
@@ -23,7 +22,7 @@ public class Registration_EA_Repo {
 	
 	// Log File Settings
 	
-	final static Logger mylog = Logger.getLogger("al");
+	final static Logger mylog = Logger.getLogger("applog");
 	
 	public Registration_EA_Repo(WebDriver Driver)
 	{

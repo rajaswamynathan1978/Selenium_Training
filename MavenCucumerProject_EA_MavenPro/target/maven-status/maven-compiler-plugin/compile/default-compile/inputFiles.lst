@@ -1,1 +1,8 @@
-C:\WorkSpace\MavenCucumerProject_EA_MavenPro\src\main\java\grpTesting\aftTesting\App.java
+C:\WorkSpace\MavenCucumerProject_EA_MavenPro\src\test\java\stepDefinition\EA_StepDef.java
+C:\WorkSpace\MavenCucumerProject_EA_MavenPro\src\test\java\genericLibrary\EventListener.java
+C:\WorkSpace\MavenCucumerProject_EA_MavenPro\src\test\java\pages_Repository\Registration_EA_Repo.java
+C:\WorkSpace\MavenCucumerProject_EA_MavenPro\src\test\java\genericLibrary\SetFireFoxProfile.java
+C:\WorkSpace\MavenCucumerProject_EA_MavenPro\src\test\java\genericLibrary\EventListener_testNG.java
+C:\WorkSpace\MavenCucumerProject_EA_MavenPro\src\test\java\pages_Repository\LogOut_Repo.java
+C:\WorkSpace\MavenCucumerProject_EA_MavenPro\src\test\java\genericLibrary\Excel_Functions.java
+C:\WorkSpace\MavenCucumerProject_EA_MavenPro\src\test\java\pages_Repository\Login_Repo.java
