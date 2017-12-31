@@ -8,6 +8,7 @@ Parallel Testing - TestNG (Chrome & Edge)
 Chrome - Execute Automation
 Edge - FaceBook Login
 ScreenShot For Fail Test Cases
+WebDriverEventListener for recording Web Driver Events & ITestListener for taking screenshot of Failing test cases
 This project can run as TestNG Project and Maven (POM.xml)
 
 SeleniumProject_MavenCucumberTestNG_EA - This Project has tests with the following functionalities
@@ -15,8 +16,8 @@ SeleniumProject_MavenCucumberTestNG_EA - This Project has tests with the followi
 Log4j
 Chrome - Execute Automation
 Cucumber
+WebDriverEventListener for recording Web Driver Events & ITestListener for taking screenshot of Failing test cases
 This project can run as TestNG Project and Maven (POM.xml) and Cucumber Tests (TestRunner.java)
-
 TestNG calles TestRunner.java file from Configuration Section of Build section in TestNG
 
 
