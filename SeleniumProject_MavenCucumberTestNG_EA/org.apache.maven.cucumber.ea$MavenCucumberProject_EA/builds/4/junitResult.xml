@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.23">
+  <suites>
+    <suite>
+      <file>C:\WorkSpace\SeleniumProject_MavenCucumberTestNG_EA\target\surefire-reports\TEST-TestSuite.xml</file>
+      <name>TestSuite</name>
+      <duration>17.183</duration>
+      <time>17.183</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>17.182</duration>
+          <className>runnerPackage.TestRunner</className>
+          <testName>feature</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>grpTesting.AppTest</className>
+          <testName>testApp on testApp(grpTesting.AppTest)</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>17.183</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

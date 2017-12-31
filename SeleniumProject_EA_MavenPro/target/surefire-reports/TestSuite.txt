@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.41 sec <<< FAILURE!
+FaceBook_Login(stepDefinition.FaceBook)  Time elapsed: 2.603 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<abc> but was:<Facebook - Log In or Sign Up>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at stepDefinition.FaceBook.FaceBook_Login(FaceBook.java:77)
+
