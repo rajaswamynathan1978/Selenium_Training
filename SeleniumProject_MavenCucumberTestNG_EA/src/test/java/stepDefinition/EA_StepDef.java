@@ -77,19 +77,22 @@ public class EA_StepDef {
 		//DesiredCapabilities dc = DesiredCapabilities.firefox();
 		//dc.setCapability("marionette", true);
 		driver =  new ChromeDriver();
+		eventListener=new genericLibrary.EventListener();
+		e_driver=new EventFiringWebDriver(driver);
+		e_driver.register(eventListener);
 		//driver = new FirefoxDriver(dc);
-	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	    driver.get("http://executeautomation.com/demosite/Login.html");
-	    Obj=new Login_Repo(driver);
-	    Obj1=new Registration_EA_Repo(driver);
+		e_driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		e_driver.get("http://executeautomation.com/demosite/Login.html");
+	    Obj=new Login_Repo(e_driver);
+	    Obj1=new Registration_EA_Repo(e_driver);
 	    PropertyConfigurator.configure(prop.getProperty("log4jConfigFilePath"));
 	}
 	@Test
 	@When("^User Navigate to LogIn Page then verify it$")
 	public void user_Navigate_to_LogIn_Page() throws Throwable {
 		Thread.sleep(2000);
-		System.out.println(driver.getTitle().toString());
-		Assert.assertEquals(driver.getTitle().toString(),"Execute Automation");
+		System.out.println(e_driver.getTitle().toString());
+		Assert.assertEquals(e_driver.getTitle().toString(),"Execute Automation");
 	}
 	@Test
 	

@@ -2,17 +2,17 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="runnerPackage.TestRunner" duration-ms="16902" started-at="2017-12-29T21:31:30Z" finished-at="2017-12-29T21:31:47Z">
+  <suite name="runnerPackage.TestRunner" duration-ms="17853" started-at="2017-12-30T21:11:54Z" finished-at="2017-12-30T21:12:11Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.TestRunner@6537cf78]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group>
     </groups>
-    <test name="Command line test" duration-ms="16902" started-at="2017-12-29T21:31:30Z" finished-at="2017-12-29T21:31:47Z">
+    <test name="Command line test" duration-ms="17853" started-at="2017-12-30T21:11:54Z" finished-at="2017-12-30T21:12:11Z">
       <class name="runnerPackage.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerPackage.TestRunner@6537cf78]" name="setUpClass" is-config="true" duration-ms="218" started-at="2017-12-29T21:31:30Z" finished-at="2017-12-29T21:31:31Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerPackage.TestRunner@6537cf78]" name="setUpClass" is-config="true" duration-ms="327" started-at="2017-12-30T21:11:54Z" finished-at="2017-12-30T21:11:54Z">
         </test-method>
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.TestRunner@6537cf78]" name="feature" duration-ms="16601" started-at="2017-12-29T21:31:31Z" description="Runs Cucumber Feature" finished-at="2017-12-29T21:31:47Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.TestRunner@6537cf78]" name="feature" duration-ms="17401" started-at="2017-12-30T21:11:54Z" description="Runs Cucumber Feature" finished-at="2017-12-30T21:12:11Z">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerPackage.TestRunner@6537cf78]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2017-12-29T21:31:47Z" finished-at="2017-12-29T21:31:47Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerPackage.TestRunner@6537cf78]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2017-12-30T21:12:11Z" finished-at="2017-12-30T21:12:11Z">
         </test-method>
       </class>
     </test>

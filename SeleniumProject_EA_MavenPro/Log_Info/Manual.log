@@ -1,0 +1,35 @@
+30/12/2017 21:00:24 abc Method Test is Started
+30/12/2017 21:00:24 abc Method ScreenShotTest is Started
+30/12/2017 21:00:24 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+30/12/2017 21:00:24 abc Method EA_StepDef1 is Passed From Test EA_StepDef1
+30/12/2017 21:00:26 abc Before navigating to: 'https://www.facebook.com'
+30/12/2017 21:00:27 abc Method EA_StepDef1 is Passed From Test EA_StepDef1
+30/12/2017 21:00:27 abc Method Login is Passed From Test Login
+30/12/2017 21:00:27 abc Raja is entered
+30/12/2017 21:00:27 abc testing is entered
+30/12/2017 21:00:28 abc Navigated to:'https://www.facebook.com'
+30/12/2017 21:00:29 abc Submit is clicked
+30/12/2017 21:00:29 abc Method Login is Passed From Test Login
+30/12/2017 21:00:29 abc Method perform is Passed From Test perform
+30/12/2017 21:00:29 abc Title Mr.is set
+30/12/2017 21:00:29 abc Initial Sis set
+30/12/2017 21:00:29 abc FirstName Rajais set to Customer First Name
+30/12/2017 21:00:29 abc MiddleName Ris set to Customer Middle Name
+30/12/2017 21:00:29 abc Value Male is set to Sex
+30/12/2017 21:00:29 abc Languag hindi is set
+30/12/2017 21:00:29 abc Save button is clicked
+30/12/2017 21:00:29 abc Method perform is Passed From Test perform
+30/12/2017 21:00:29 abc Method Test is Finished
+30/12/2017 21:00:30 abc Trying to find Element By : By.id: email
+30/12/2017 21:00:30 abc Found Element By : By.id: email
+30/12/2017 21:00:30 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (31790693-EE95-40C7-9DF6-A9E0EFF2D705)] -> id: email] before any changes made
+30/12/2017 21:00:30 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (31790693-EE95-40C7-9DF6-A9E0EFF2D705)] -> id: email]
+30/12/2017 21:00:30 abc Raja is set to Email
+30/12/2017 21:00:30 abc Trying to find Element By : By.id: pass
+30/12/2017 21:00:30 abc Found Element By : By.id: pass
+30/12/2017 21:00:30 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (31790693-EE95-40C7-9DF6-A9E0EFF2D705)] -> id: pass] before any changes made
+30/12/2017 21:00:30 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (31790693-EE95-40C7-9DF6-A9E0EFF2D705)] -> id: pass]
+30/12/2017 21:00:30 abc testing is set to Password
+30/12/2017 21:00:32 abc From Listener Class -- > Method FaceBook_Login is Failed From Test FaceBook_Login
+30/12/2017 21:00:32 abc ***Placed screen shot in Screen_Shots/FaceBook_Login_2017_Dec_30_21_00_32_PM ***
+30/12/2017 21:00:34 abc Method ScreenShotTest is Finished

@@ -24,8 +24,7 @@ public class Registration_EA_Repo {
 	
 	// Log File Settings
 	
-	//final static Logger mylog = Logger.getLogger("appLog");
-	final static Logger mylog = Logger.getLogger(Registration_EA_Repo.class.getName());
+	final static Logger mylog = Logger.getLogger("appLog");
 	
 	public Registration_EA_Repo(WebDriver Driver)
 	{

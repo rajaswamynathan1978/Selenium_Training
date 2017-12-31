@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9862" started-at="2017-12-30T19:19:18Z" finished-at="2017-12-30T19:19:28Z">
+  <suite name="Suite" duration-ms="10631" started-at="2017-12-30T21:00:24Z" finished-at="2017-12-30T21:00:34Z">
     <groups>
     </groups>
-    <test name="ScreenShotTest" duration-ms="9861" started-at="2017-12-30T19:19:18Z" finished-at="2017-12-30T19:19:28Z">
+    <test name="ScreenShotTest" duration-ms="10630" started-at="2017-12-30T21:00:24Z" finished-at="2017-12-30T21:00:34Z">
       <class name="stepDefinition.FaceBook">
-        <test-method status="FAIL" signature="FaceBook_Login()[pri:0, instance:stepDefinition.FaceBook@8bd1b6a]" name="FaceBook_Login" duration-ms="7445" started-at="2017-12-30T19:19:18Z" finished-at="2017-12-30T19:19:26Z">
+        <test-method status="FAIL" signature="FaceBook_Login()[pri:0, instance:stepDefinition.FaceBook@8bd1b6a]" name="FaceBook_Login" duration-ms="8198" started-at="2017-12-30T21:00:24Z" finished-at="2017-12-30T21:00:32Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<abc> but was:<Facebook - Log In or Sign Up>]]>
@@ -45,13 +45,13 @@
         </test-method>
       </class>
     </test>
-    <test name="Test" duration-ms="5540" started-at="2017-12-30T19:19:18Z" finished-at="2017-12-30T19:19:24Z">
+    <test name="Test" duration-ms="5634" started-at="2017-12-30T21:00:24Z" finished-at="2017-12-30T21:00:29Z">
       <class name="stepDefinition.EA_StepDef">
-        <test-method status="PASS" signature="EA_StepDef1()[pri:0, instance:stepDefinition.EA_StepDef@7dc7cbad]" name="EA_StepDef1" duration-ms="3236" started-at="2017-12-30T19:19:18Z" finished-at="2017-12-30T19:19:21Z">
+        <test-method status="PASS" signature="EA_StepDef1()[pri:0, instance:stepDefinition.EA_StepDef@7dc7cbad]" name="EA_StepDef1" duration-ms="3342" started-at="2017-12-30T21:00:24Z" finished-at="2017-12-30T21:00:27Z">
         </test-method>
-        <test-method status="PASS" signature="Login()[pri:1, instance:stepDefinition.EA_StepDef@7dc7cbad]" name="Login" duration-ms="1605" started-at="2017-12-30T19:19:21Z" finished-at="2017-12-30T19:19:23Z">
+        <test-method status="PASS" signature="Login()[pri:1, instance:stepDefinition.EA_StepDef@7dc7cbad]" name="Login" duration-ms="1619" started-at="2017-12-30T21:00:27Z" finished-at="2017-12-30T21:00:29Z">
         </test-method>
-        <test-method status="PASS" signature="perform()[pri:2, instance:stepDefinition.EA_StepDef@7dc7cbad]" name="perform" duration-ms="679" started-at="2017-12-30T19:19:23Z" finished-at="2017-12-30T19:19:24Z">
+        <test-method status="PASS" signature="perform()[pri:2, instance:stepDefinition.EA_StepDef@7dc7cbad]" name="perform" duration-ms="653" started-at="2017-12-30T21:00:29Z" finished-at="2017-12-30T21:00:29Z">
         </test-method>
       </class>
     </test>

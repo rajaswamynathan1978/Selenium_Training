@@ -159,77 +159,77 @@ formatter.match({
   "location": "EA_StepDef.user_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 2695899105,
+  "duration": 3346163722,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.user_Navigate_to_LogIn_Page()"
 });
 formatter.result({
-  "duration": 2021028329,
+  "duration": 2019766077,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.user_enters_UserName_and_Password()"
 });
 formatter.result({
-  "duration": 1376465480,
+  "duration": 1385719974,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.message_displayed_Login_Successfully()"
 });
 formatter.result({
-  "duration": 5011660238,
+  "duration": 5005953171,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.selectTitle()"
 });
 formatter.result({
-  "duration": 5130453230,
+  "duration": 5135406296,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.setInitial()"
 });
 formatter.result({
-  "duration": 56256351,
+  "duration": 83129087,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.setFirstName()"
 });
 formatter.result({
-  "duration": 57699510,
+  "duration": 69430749,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.setMiddleName()"
 });
 formatter.result({
-  "duration": 51422774,
+  "duration": 98509594,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.selectSex()"
 });
 formatter.result({
-  "duration": 64731998,
+  "duration": 82214916,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.selectLanguage()"
 });
 formatter.result({
-  "duration": 51674034,
+  "duration": 65851498,
   "status": "passed"
 });
 formatter.match({
   "location": "EA_StepDef.clickSave()"
 });
 formatter.result({
-  "duration": 49921146,
+  "duration": 65929720,
   "status": "passed"
 });
 });

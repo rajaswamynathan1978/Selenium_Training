@@ -1,21 +1,77 @@
-29/12/2017 21:13:42 appLog raja is entered
-29/12/2017 21:13:42 appLog test123 is entered
-29/12/2017 21:13:43 appLog Submit is clicked
-29/12/2017 21:16:27 appLog raja is entered
-29/12/2017 21:16:27 appLog test123 is entered
-29/12/2017 21:16:28 appLog Submit is clicked
-29/12/2017 21:18:10 appLog raja is entered
-29/12/2017 21:18:10 appLog test123 is entered
-29/12/2017 21:18:11 appLog Submit is clicked
-29/12/2017 21:20:56 appLog raja is entered
-29/12/2017 21:20:56 appLog test123 is entered
-29/12/2017 21:20:57 appLog Submit is clicked
-29/12/2017 21:23:39 appLog raja is entered
-29/12/2017 21:23:39 appLog test123 is entered
-29/12/2017 21:23:41 appLog Submit is clicked
-29/12/2017 21:30:27 appLog raja is entered
-29/12/2017 21:30:27 appLog test123 is entered
-29/12/2017 21:30:28 appLog Submit is clicked
-29/12/2017 21:31:35 appLog raja is entered
-29/12/2017 21:31:36 appLog test123 is entered
-29/12/2017 21:31:37 appLog Submit is clicked
+30/12/2017 21:03:03 appLog raja is entered
+30/12/2017 21:03:04 appLog test123 is entered
+30/12/2017 21:03:05 appLog Submit is clicked
+30/12/2017 21:06:26 appLog raja is entered
+30/12/2017 21:06:26 appLog test123 is entered
+30/12/2017 21:06:27 appLog Submit is clicked
+30/12/2017 21:06:37 appLog Title Mr.is selected
+30/12/2017 21:06:37 appLog Initial Sis set
+30/12/2017 21:06:38 appLog FirstName Rajais set to Customer First Name
+30/12/2017 21:06:38 appLog MiddleName Sis set to Customer Middle Name
+30/12/2017 21:06:38 appLog Value Male is set to Sex
+30/12/2017 21:06:38 appLog Languag hindi is set
+30/12/2017 21:06:38 appLog Save button is clicked
+30/12/2017 21:09:44 appLog raja is entered
+30/12/2017 21:09:45 appLog test123 is entered
+30/12/2017 21:09:46 appLog Submit is clicked
+30/12/2017 21:09:56 appLog Title Mr.is selected
+30/12/2017 21:09:56 appLog Initial Sis set
+30/12/2017 21:09:56 appLog FirstName Rajais set to Customer First Name
+30/12/2017 21:09:56 appLog MiddleName Sis set to Customer Middle Name
+30/12/2017 21:09:56 appLog Value Male is set to Sex
+30/12/2017 21:09:56 appLog Languag hindi is set
+30/12/2017 21:09:56 appLog Save button is clicked
+30/12/2017 21:11:57 appLog Before navigating to: 'http://executeautomation.com/demosite/Login.html'
+30/12/2017 21:11:57 appLog Navigated to:'http://executeautomation.com/demosite/Login.html'
+30/12/2017 21:11:59 appLog Trying to find Element By : By.name: UserName
+30/12/2017 21:11:59 appLog Found Element By : By.name: UserName
+30/12/2017 21:11:59 appLog Value of the:[[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: UserName] before any changes made
+30/12/2017 21:11:59 appLog Element value changed to: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: UserName]
+30/12/2017 21:11:59 appLog raja is entered
+30/12/2017 21:11:59 appLog Trying to find Element By : By.name: Password
+30/12/2017 21:11:59 appLog Found Element By : By.name: Password
+30/12/2017 21:11:59 appLog Value of the:[[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: Password] before any changes made
+30/12/2017 21:12:00 appLog Element value changed to: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: Password]
+30/12/2017 21:12:00 appLog test123 is entered
+30/12/2017 21:12:01 appLog Trying to find Element By : By.cssSelector: input[name=Login]
+30/12/2017 21:12:01 appLog Found Element By : By.cssSelector: input[name=Login]
+30/12/2017 21:12:01 appLog Trying to click on: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> css selector: input[name=Login]]
+30/12/2017 21:12:01 appLog Clicked on: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> css selector: input[name=Login]]
+30/12/2017 21:12:01 appLog Submit is clicked
+30/12/2017 21:12:11 appLog Trying to find Element By : By.name: TitleId
+30/12/2017 21:12:11 appLog Found Element By : By.name: TitleId
+30/12/2017 21:12:11 appLog Trying to find Element By : By.tagName: option
+30/12/2017 21:12:11 appLog Found Element By : By.tagName: option
+30/12/2017 21:12:11 appLog Trying to click on: [[[[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: TitleId]] -> tag name: option]
+30/12/2017 21:12:11 appLog Clicked on: [[[[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: TitleId]] -> tag name: option]
+30/12/2017 21:12:11 appLog Title Mr.is selected
+30/12/2017 21:12:11 appLog Trying to find Element By : By.name: Initial
+30/12/2017 21:12:11 appLog Found Element By : By.name: Initial
+30/12/2017 21:12:11 appLog Value of the:[[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: Initial] before any changes made
+30/12/2017 21:12:11 appLog Element value changed to: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: Initial]
+30/12/2017 21:12:11 appLog Initial Sis set
+30/12/2017 21:12:11 appLog Trying to find Element By : By.name: FirstName
+30/12/2017 21:12:11 appLog Found Element By : By.name: FirstName
+30/12/2017 21:12:11 appLog Value of the:[[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: FirstName] before any changes made
+30/12/2017 21:12:11 appLog Element value changed to: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: FirstName]
+30/12/2017 21:12:11 appLog FirstName Rajais set to Customer First Name
+30/12/2017 21:12:11 appLog Trying to find Element By : By.name: MiddleName
+30/12/2017 21:12:11 appLog Found Element By : By.name: MiddleName
+30/12/2017 21:12:11 appLog Value of the:[[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: MiddleName] before any changes made
+30/12/2017 21:12:11 appLog Element value changed to: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: MiddleName]
+30/12/2017 21:12:11 appLog MiddleName Sis set to Customer Middle Name
+30/12/2017 21:12:11 appLog Trying to find Element By : By.name: Male
+30/12/2017 21:12:11 appLog Found Element By : By.name: Male
+30/12/2017 21:12:11 appLog Trying to click on: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: Male]
+30/12/2017 21:12:11 appLog Clicked on: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: Male]
+30/12/2017 21:12:11 appLog Value Male is set to Sex
+30/12/2017 21:12:11 appLog Trying to find Element By : By.name: Hindi
+30/12/2017 21:12:11 appLog Found Element By : By.name: Hindi
+30/12/2017 21:12:11 appLog Trying to click on: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: Hindi]
+30/12/2017 21:12:11 appLog Clicked on: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: Hindi]
+30/12/2017 21:12:11 appLog Languag hindi is set
+30/12/2017 21:12:11 appLog Trying to find Element By : By.name: Save
+30/12/2017 21:12:11 appLog Found Element By : By.name: Save
+30/12/2017 21:12:11 appLog Trying to click on: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: Save]
+30/12/2017 21:12:11 appLog Clicked on: [[ChromeDriver: chrome on XP (e55632317635a0c8fa4411058302cb35)] -> name: Save]
+30/12/2017 21:12:11 appLog Save button is clicked
