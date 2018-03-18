@@ -23,3 +23,11 @@ TestNG calles TestRunner.java file from Configuration Section of Build section i
 Testing for CI- Try 1
 
 
+17-March-2018 
+
+Selenium_FrameWork_Training - Project is added
+It is ready to run from Jenkins. Jenkins Job was configured and the name is : Selenium_FrameWork_Training
+It is running as testNG and Maven. It will take screenshot for test method failures. It is a good one for selenium training
+Latest Drivers are available at D:\Selenium_Drivers
+
+

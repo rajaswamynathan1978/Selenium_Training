@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" parallel="tests">
+  <parameter name="firstName" value="Raja"/>
+  <parameter name="lastName" value="S"/>
+  <parameter name="sex" value="m"/>
+  <listeners>
+    <listener class-name="genericLibrary.EventListener_testNG"/>
+  </listeners>
+  <test name="ScreenShotTest(failed)(failed)" parallel="tests" preserve-order="true">
+    <parameter name="firstName" value="Raja"/>
+    <parameter name="lastName" value="S"/>
+    <parameter name="sex" value="m"/>
+    <classes>
+      <class name="stepDefinition.FaceBook">
+        <methods>
+          <include name="FaceBook_Login"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

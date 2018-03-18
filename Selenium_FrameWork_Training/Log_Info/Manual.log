@@ -1,0 +1,136 @@
+17/03/2018 20:08:06 abc Method Test is Started
+17/03/2018 20:08:06 abc Method ScreenShotTest is Started
+17/03/2018 20:08:06 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 20:08:06 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:08:08 abc Before navigating to: 'https://www.facebook.com'
+17/03/2018 20:08:11 abc Navigated to:'https://www.facebook.com'
+17/03/2018 20:08:13 abc Trying to find Element By : By.id: email
+17/03/2018 20:08:13 abc Found Element By : By.id: email
+17/03/2018 20:08:13 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (50D14357-1EC7-424C-B883-CE0E2E49B95C)] -> id: email] before any changes made
+17/03/2018 20:08:13 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (50D14357-1EC7-424C-B883-CE0E2E49B95C)] -> id: email]
+17/03/2018 20:08:13 abc Raja is set to Email
+17/03/2018 20:08:13 abc Trying to find Element By : By.id: pass
+17/03/2018 20:08:13 abc Found Element By : By.id: pass
+17/03/2018 20:08:13 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (50D14357-1EC7-424C-B883-CE0E2E49B95C)] -> id: pass] before any changes made
+17/03/2018 20:08:13 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (50D14357-1EC7-424C-B883-CE0E2E49B95C)] -> id: pass]
+17/03/2018 20:08:13 abc testing is set to Password
+17/03/2018 20:08:14 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:08:14 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:08:14 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:08:14 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 20:08:14 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 20:08:14 abc Method selectContinents is Passed From Test selectContinents
+17/03/2018 20:08:15 abc From Listener Class -- > Method selectContinents is Failed From Test selectContinents
+17/03/2018 20:08:15 abc ***Placed screen shot in Screen_Shots/selectContinents_2018_Mar_17_20_08_15_PM ***
+17/03/2018 20:08:15 abc Method selectProfession is Passed From Test selectProfession
+17/03/2018 20:08:15 abc From Listener Class -- > Method FaceBook_Login is Failed From Test FaceBook_Login
+17/03/2018 20:08:15 abc ***Placed screen shot in Screen_Shots/FaceBook_Login_2018_Mar_17_20_08_15_PM ***
+17/03/2018 20:08:15 abc Method ScreenShotTest is Finished
+17/03/2018 20:08:15 abc Method selectProfession is Passed From Test selectProfession
+17/03/2018 20:08:15 abc Method selectSeleniumCommands is Passed From Test selectSeleniumCommands
+17/03/2018 20:08:15 abc From Listener Class -- > Method selectSeleniumCommands is Failed From Test selectSeleniumCommands
+17/03/2018 20:08:15 abc ***Placed screen shot in Screen_Shots/selectSeleniumCommands_2018_Mar_17_20_08_15_PM ***
+17/03/2018 20:08:15 abc Method setDate is Passed From Test setDate
+17/03/2018 20:08:16 abc From Listener Class -- > Method setDate is Failed From Test setDate
+17/03/2018 20:08:16 abc ***Placed screen shot in Screen_Shots/setDate_2018_Mar_17_20_08_16_PM ***
+17/03/2018 20:08:16 abc Method upLoadFile is Passed From Test upLoadFile
+17/03/2018 20:08:16 abc Method upLoadFile is Passed From Test upLoadFile
+17/03/2018 20:08:16 abc Method setFirstName is Passed From Test setFirstName
+17/03/2018 20:08:16 abc From Listener Class -- > Method setFirstName is Failed From Test setFirstName
+17/03/2018 20:08:16 abc ***Placed screen shot in Screen_Shots/setFirstName_2018_Mar_17_20_08_16_PM ***
+17/03/2018 20:08:16 abc Method setLastName is Passed From Test setLastName
+17/03/2018 20:08:16 abc From Listener Class -- > Method setLastName is Failed From Test setLastName
+17/03/2018 20:08:16 abc ***Placed screen shot in Screen_Shots/setLastName_2018_Mar_17_20_08_16_PM ***
+17/03/2018 20:08:16 abc Method selectSex is Passed From Test selectSex
+17/03/2018 20:08:17 abc Method selectSex is Passed From Test selectSex
+17/03/2018 20:08:17 abc Method selectYearsOfExperience is Passed From Test selectYearsOfExperience
+17/03/2018 20:08:17 abc Method selectYearsOfExperience is Passed From Test selectYearsOfExperience
+17/03/2018 20:08:17 abc Method Test is Finished
+17/03/2018 20:12:38 abc Method Test is Started
+17/03/2018 20:12:38 abc Method ScreenShotTest is Started
+17/03/2018 20:12:38 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 20:12:38 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:12:38 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 20:12:38 abc Method ScreenShotTest is Finished
+17/03/2018 20:12:45 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:12:45 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:12:45 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:12:45 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 20:12:45 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 20:12:45 abc Method selectContinents is Passed From Test selectContinents
+17/03/2018 20:12:45 abc From Listener Class -- > Method selectContinents is Failed From Test selectContinents
+17/03/2018 20:12:45 abc From Listener Class -- > Method selectContinents is Failed From Test selectContinents
+17/03/2018 20:12:45 abc Method Test is Finished
+17/03/2018 20:15:47 abc Method Test is Started
+17/03/2018 20:15:47 abc Method ScreenShotTest is Started
+17/03/2018 20:15:47 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 20:15:47 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:15:48 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 20:15:48 abc Method ScreenShotTest is Finished
+17/03/2018 20:15:56 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:15:56 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:15:56 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:15:56 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 20:15:57 abc From Listener Class -- > Method selectAutomationTool is Failed From Test selectAutomationTool
+17/03/2018 20:15:57 abc From Listener Class -- > Method selectAutomationTool is Failed From Test selectAutomationTool
+17/03/2018 20:15:57 abc Method Test is Finished
+17/03/2018 20:17:55 abc Method ScreenShotTest is Started
+17/03/2018 20:17:55 abc Method Test is Started
+17/03/2018 20:17:55 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 20:17:55 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:17:57 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 20:17:57 abc Method ScreenShotTest is Finished
+17/03/2018 20:18:03 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:18:03 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:18:03 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:18:03 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 20:18:03 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 20:18:03 abc Method selectContinents is Passed From Test selectContinents
+17/03/2018 20:18:03 abc From Listener Class -- > Method selectContinents is Failed From Test selectContinents
+17/03/2018 20:18:03 abc From Listener Class -- > Method selectContinents is Failed From Test selectContinents
+17/03/2018 20:18:03 abc Method Test is Finished
+17/03/2018 20:20:42 abc Method Test is Started
+17/03/2018 20:20:42 abc Method ScreenShotTest is Started
+17/03/2018 20:20:42 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 20:20:42 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:20:42 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 20:20:43 abc Method ScreenShotTest is Finished
+17/03/2018 20:20:49 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:20:49 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:20:50 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:20:50 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 20:20:50 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 20:20:50 abc Method selectContinents is Passed From Test selectContinents
+17/03/2018 20:20:50 abc From Listener Class -- > Method selectContinents is Failed From Test selectContinents
+17/03/2018 20:20:50 abc From Listener Class -- > Method selectContinents is Failed From Test selectContinents
+17/03/2018 20:20:50 abc Method Test is Finished
+17/03/2018 20:22:49 abc Method Test is Started
+17/03/2018 20:22:49 abc Method ScreenShotTest is Started
+17/03/2018 20:22:49 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 20:22:49 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:22:49 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 20:22:49 abc Method ScreenShotTest is Finished
+17/03/2018 20:22:57 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 20:22:57 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:22:57 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 20:22:57 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 20:22:57 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 20:22:57 abc Method selectContinents is Passed From Test selectContinents
+17/03/2018 20:22:58 abc Method selectContinents is Passed From Test selectContinents
+17/03/2018 20:22:58 abc Method selectProfession is Passed From Test selectProfession
+17/03/2018 20:22:58 abc Method selectProfession is Passed From Test selectProfession
+17/03/2018 20:22:58 abc Method selectSeleniumCommands is Passed From Test selectSeleniumCommands
+17/03/2018 20:22:58 abc Method selectSeleniumCommands is Passed From Test selectSeleniumCommands
+17/03/2018 20:22:58 abc Method setDate is Passed From Test setDate
+17/03/2018 20:22:58 abc Method setDate is Passed From Test setDate
+17/03/2018 20:22:58 abc Method upLoadFile is Passed From Test upLoadFile
+17/03/2018 20:22:58 abc Method upLoadFile is Passed From Test upLoadFile
+17/03/2018 20:22:58 abc Method setFirstName is Passed From Test setFirstName
+17/03/2018 20:22:58 abc Method setFirstName is Passed From Test setFirstName
+17/03/2018 20:22:58 abc Method setLastName is Passed From Test setLastName
+17/03/2018 20:22:59 abc Method setLastName is Passed From Test setLastName
+17/03/2018 20:22:59 abc Method selectSex is Passed From Test selectSex
+17/03/2018 20:22:59 abc Method selectSex is Passed From Test selectSex
+17/03/2018 20:22:59 abc Method selectYearsOfExperience is Passed From Test selectYearsOfExperience
+17/03/2018 20:22:59 abc Method selectYearsOfExperience is Passed From Test selectYearsOfExperience
+17/03/2018 20:22:59 abc Method Test is Finished

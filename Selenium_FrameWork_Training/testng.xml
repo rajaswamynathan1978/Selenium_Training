@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="genericLibrary.EventListener_testNG"></listener>
+</listeners>
+ <test name="Test">
+ <parameter name="firstName" value="Raja"></parameter>
+ <parameter name="lastName" value="S"></parameter>
+ <parameter name="sex" value="m"></parameter>
+ <parameter name="years" value="7"></parameter>
+ <parameter name="dte" value="12/20/1988"></parameter>
+ <parameter name="profession" value="Manual Tester"></parameter>
+ <parameter name="autoTool" value="qtp"></parameter>
+ <parameter name="continent" value="Europe"></parameter>
+ <parameter name="FilePath_Upload" value="C:/WorkSpace/SeleniumProject_EA_MavenPro_Sample/AutoIt_Scripts/FileDownLoad.exe"></parameter>
+ <parameter name="FilePath_Download" value="C:/WorkSpace/SeleniumProject_EA_MavenPro_Sample/AutoIt_Scripts/FileUpload.exe"></parameter>
+ <parameter name="commands" value=""></parameter>
+    <classes>
+      <class name="stepDefinition.Practice_Automation_ToolsQA_Repo"/>
+    </classes>
+ </test>
+<test name="ScreenShotTest">
+    <classes>
+      <class name="stepDefinition.FaceBook"/>
+    </classes>
+  </test>
+</suite> 
+
