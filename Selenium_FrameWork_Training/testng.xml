@@ -13,8 +13,8 @@
  <parameter name="profession" value="Manual Tester"></parameter>
  <parameter name="autoTool" value="qtp"></parameter>
  <parameter name="continent" value="Europe"></parameter>
- <parameter name="FilePath_Upload" value="C:/WorkSpace/SeleniumProject_EA_MavenPro_Sample/AutoIt_Scripts/FileDownLoad.exe"></parameter>
- <parameter name="FilePath_Download" value="C:/WorkSpace/SeleniumProject_EA_MavenPro_Sample/AutoIt_Scripts/FileUpload.exe"></parameter>
+ <parameter name="FilePath_Upload" value="C:/WorkSpace/SeleniumProject_EA_MavenPro_Sample/AutoIt_Scripts/FileUpload.exe"></parameter>
+ <parameter name="FilePath_Download" value="C:/WorkSpace/SeleniumProject_EA_MavenPro_Sample/AutoIt_Scripts/FileDownLoad.exe"></parameter>
  <parameter name="commands" value=""></parameter>
     <classes>
       <class name="stepDefinition.Practice_Automation_ToolsQA_Repo"/>

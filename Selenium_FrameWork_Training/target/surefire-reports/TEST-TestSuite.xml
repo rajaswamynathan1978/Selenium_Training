@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="11.013" tests="13" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="11.154" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="Selenium_FrameWork_Training"/>
+    <property name="JOB_NAME" value="Selenium_FrameWork_Training_Maven"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -11,7 +11,7 @@
     <property name="POM_ARTIFACTID" value="Selenium_FrameWork_Training"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -26,9 +26,9 @@
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="Selenium_FrameWork_Training"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Selenium_FrameWork_Training/12/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#12"/>
+    <property name="JOB_BASE_NAME" value="Selenium_FrameWork_Training_Maven"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Selenium_FrameWork_Training_Maven/27/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_111"/>
@@ -39,7 +39,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="12"/>
+    <property name="BUILD_ID" value="27"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -52,14 +52,14 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Selenium_FrameWork_Training/12/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Selenium_FrameWork_Training_Maven/27/display/redirect"/>
     <property name="POM_VERSION" value="1"/>
     <property name="configsetroot" value="C:\WINDOWS\ConfigSetRoot"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.111-b14"/>
     <property name="user.variant" value=""/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Selenium_FrameWork_Training/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Selenium_FrameWork_Training_Maven/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_111"/>
@@ -75,7 +75,7 @@
     <property name="POM_GROUPID" value="Selenium_FrameWork_Training"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Selenium_FrameWork_Training-12"/>
+    <property name="BUILD_TAG" value="jenkins-Selenium_FrameWork_Training_Maven-27"/>
     <property name="JENKINS_SERVER_COOKIE" value="93fbfb00b358de77"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -90,7 +90,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_WorkSpace_apache-maven-3.3.9"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-agent-1.12-alpha-1.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_WorkSpace_apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_WorkSpace_apache-maven-3.3.9/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_WorkSpace_apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.15.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.12-alpha-1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 59782"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_WorkSpace_apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.15.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.12-alpha-1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 60671"/>
     <property name="Path" value="C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Java\jre1.8.0_111;C:\WorkSpace\Selenium\Log_Info\log4j.properties;C:\WorkSpace\apache-maven-3.3.9\bin;C:\Program Files\Git\bin\cmd;C:\Program Files\Git\bin;C:\Program Files (x86)\jre1.8.0_151;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -105,19 +105,19 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_WorkSpace_apache-maven-3.3.9/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Selenium_FrameWork_Training/12/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Selenium_FrameWork_Training_Maven/27/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="user.dir" value="C:\WorkSpace\Selenium_FrameWork_Training"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/Selenium_FrameWork_Training/"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Selenium_FrameWork_Training_Maven/"/>
     <property name="USERDOMAIN" value="WORKGROUP"/>
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_WorkSpace_apache-maven-3.3.9"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="12"/>
+    <property name="BUILD_NUMBER" value="27"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="4e03"/>
@@ -127,7 +127,7 @@
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.12-alpha-1.jar"/>
-    <property name="WORKSPACE" value="C:\WorkSpace\Selenium_FrameWork_Training\target\surefire-reports"/>
+    <property name="WORKSPACE" value="C:\WorkSpace\Selenium_FrameWork_Training"/>
     <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
     <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
     <property name="java.specification.version" value="1.8"/>
@@ -135,17 +135,17 @@
     <property name="BUILD_CAUSE" value="MANUALTRIGGER"/>
     <property name="easyplussdk" value="&quot;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin&quot;"/>
   </properties>
-  <testcase name="FaceBook_Login" classname="stepDefinition.FaceBook" time="0.796"/>
-  <testcase name="LaunchBrowser" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="8.296"/>
-  <testcase name="downLoadFile" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.327"/>
-  <testcase name="selectAutomationTool" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.169"/>
-  <testcase name="selectContinents" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.18"/>
-  <testcase name="selectProfession" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.13"/>
-  <testcase name="selectSeleniumCommands" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.454"/>
-  <testcase name="setDate" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.141"/>
-  <testcase name="upLoadFile" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.099"/>
-  <testcase name="setFirstName" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.126"/>
-  <testcase name="setLastName" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.091"/>
-  <testcase name="selectSex" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.113"/>
-  <testcase name="selectYearsOfExperience" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.091"/>
+  <testcase name="FaceBook_Login" classname="stepDefinition.FaceBook" time="0.925"/>
+  <testcase name="LaunchBrowser" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="7.911"/>
+  <testcase name="downLoadFile" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.333"/>
+  <testcase name="selectAutomationTool" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.198"/>
+  <testcase name="selectContinents" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.271"/>
+  <testcase name="selectProfession" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.172"/>
+  <testcase name="selectSeleniumCommands" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.527"/>
+  <testcase name="setDate" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.173"/>
+  <testcase name="upLoadFile" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.117"/>
+  <testcase name="setFirstName" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.157"/>
+  <testcase name="setLastName" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.103"/>
+  <testcase name="selectSex" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.157"/>
+  <testcase name="selectYearsOfExperience" classname="stepDefinition.Practice_Automation_ToolsQA_Repo" time="0.11"/>
 </testsuite>

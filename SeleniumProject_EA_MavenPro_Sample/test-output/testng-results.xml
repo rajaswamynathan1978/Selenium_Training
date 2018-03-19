@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="13" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17692" started-at="2018-03-17T19:50:30Z" finished-at="2018-03-17T19:50:48Z">
+    <groups>
+    </groups>
+    <test name="ScreenShotTest" duration-ms="8966" started-at="2018-03-17T19:50:30Z" finished-at="2018-03-17T19:50:39Z">
+      <class name="stepDefinition.FaceBook">
+        <test-method status="FAIL" signature="FaceBook_Login()[pri:0, instance:stepDefinition.FaceBook@6c3708b3]" name="FaceBook_Login" duration-ms="8826" started-at="2018-03-17T19:50:30Z" finished-at="2018-03-17T19:50:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<abc> but was:<Facebook - Log In or Sign Up>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<abc> but was:<Facebook - Log In or Sign Up>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at stepDefinition.FaceBook.FaceBook_Login(FaceBook.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:758)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable.run(ThreadUtil.java:165)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+      </class>
+    </test>
+    <test name="Test" duration-ms="17692" started-at="2018-03-17T19:50:30Z" finished-at="2018-03-17T19:50:48Z">
+      <class name="stepDefinition.Practice_Automation_ToolsQA_Repo">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="LaunchBrowser" duration-ms="9658" started-at="2018-03-17T19:50:30Z" finished-at="2018-03-17T19:50:40Z">
+        </test-method>
+        <test-method status="PASS" signature="downLoadFile(java.lang.String)[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="downLoadFile" duration-ms="4474" started-at="2018-03-17T19:50:40Z" finished-at="2018-03-17T19:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:/WorkSpace/SeleniumProject_EA_MavenPro_Sample/AutoIt_Scripts/FileUpload.exe]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="selectAutomationTool(java.lang.String)[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="selectAutomationTool" duration-ms="97" started-at="2018-03-17T19:50:45Z" finished-at="2018-03-17T19:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qtp]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="selectContinents(java.lang.String)[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="selectContinents" duration-ms="145" started-at="2018-03-17T19:50:45Z" finished-at="2018-03-17T19:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Europe]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="selectProfession(java.lang.String)[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="selectProfession" duration-ms="190" started-at="2018-03-17T19:50:45Z" finished-at="2018-03-17T19:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manual Tester]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="selectSeleniumCommands(java.lang.String)[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="selectSeleniumCommands" duration-ms="335" started-at="2018-03-17T19:50:45Z" finished-at="2018-03-17T19:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setDate(java.lang.String)[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="setDate" duration-ms="171" started-at="2018-03-17T19:50:45Z" finished-at="2018-03-17T19:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12/20/1988]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="upLoadFile(java.lang.String)[pri:0, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="upLoadFile" duration-ms="2275" started-at="2018-03-17T19:50:45Z" finished-at="2018-03-17T19:50:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:/WorkSpace/SeleniumProject_EA_MavenPro_Sample/AutoIt_Scripts/FileDownLoad.exe]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setFirstName(java.lang.String)[pri:1, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="setFirstName" duration-ms="114" started-at="2018-03-17T19:50:48Z" finished-at="2018-03-17T19:50:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raja]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setLastName(java.lang.String)[pri:2, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="setLastName" duration-ms="63" started-at="2018-03-17T19:50:48Z" finished-at="2018-03-17T19:50:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="selectSex(java.lang.String)[pri:3, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="selectSex" duration-ms="70" started-at="2018-03-17T19:50:48Z" finished-at="2018-03-17T19:50:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="selectYearsOfExperience(java.lang.String)[pri:4, instance:stepDefinition.Practice_Automation_ToolsQA_Repo@3327bd23]" name="selectYearsOfExperience" duration-ms="66" started-at="2018-03-17T19:50:48Z" finished-at="2018-03-17T19:50:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

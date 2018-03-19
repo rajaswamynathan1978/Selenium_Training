@@ -1,0 +1,189 @@
+17/03/2018 12:08:52 abc Method Test Grouping is Started
+17/03/2018 12:08:52 abc Method Car1 is Passed From Test Car1
+17/03/2018 12:08:52 abc Method Car1 is Passed From Test Car1
+17/03/2018 12:08:52 abc Method Car2 is Passed From Test Car2
+17/03/2018 12:08:52 abc Method Car2 is Passed From Test Car2
+17/03/2018 12:08:52 abc Method Sedan1 is Passed From Test Sedan1
+17/03/2018 12:08:52 abc Method Sedan1 is Passed From Test Sedan1
+17/03/2018 12:08:52 abc Method testTestAnnotation is Passed From Test testTestAnnotation
+17/03/2018 12:08:52 abc From Listener Class -- > Method testTestAnnotation is Failed From Test testTestAnnotation
+17/03/2018 12:08:52 abc From Listener Class -- > Method testTestAnnotation is Failed From Test testTestAnnotation
+17/03/2018 12:08:52 abc Method Test Grouping is Finished
+17/03/2018 12:11:06 abc Method ScreenShotTest is Started
+17/03/2018 12:11:06 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 12:11:08 abc Before navigating to: 'https://www.facebook.com'
+17/03/2018 12:11:10 abc Navigated to:'https://www.facebook.com'
+17/03/2018 12:11:12 abc Trying to find Element By : By.id: email
+17/03/2018 12:11:12 abc Found Element By : By.id: email
+17/03/2018 12:11:12 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (F9009BF4-CF1D-452A-8F7A-44B6D8D6E930)] -> id: email] before any changes made
+17/03/2018 12:11:12 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (F9009BF4-CF1D-452A-8F7A-44B6D8D6E930)] -> id: email]
+17/03/2018 12:11:12 abc Raja is set to Email
+17/03/2018 12:11:12 abc Trying to find Element By : By.id: pass
+17/03/2018 12:11:12 abc Found Element By : By.id: pass
+17/03/2018 12:11:12 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (F9009BF4-CF1D-452A-8F7A-44B6D8D6E930)] -> id: pass] before any changes made
+17/03/2018 12:11:12 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (F9009BF4-CF1D-452A-8F7A-44B6D8D6E930)] -> id: pass]
+17/03/2018 12:11:12 abc testing is set to Password
+17/03/2018 12:11:14 abc From Listener Class -- > Method FaceBook_Login is Failed From Test FaceBook_Login
+17/03/2018 12:11:14 abc ***Placed screen shot in Screen_Shots/FaceBook_Login_2018_Mar_17_12_11_14_PM ***
+17/03/2018 12:11:14 abc Method ScreenShotTest is Finished
+17/03/2018 19:28:57 abc Method ScreenShotTest is Started
+17/03/2018 19:28:57 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 19:28:59 abc Before navigating to: 'https://www.facebook.com'
+17/03/2018 19:29:01 abc Navigated to:'https://www.facebook.com'
+17/03/2018 19:29:03 abc Trying to find Element By : By.id: email
+17/03/2018 19:29:03 abc Found Element By : By.id: email
+17/03/2018 19:29:03 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (8E944F01-8B1C-4FEE-B53D-88CFB1F13B90)] -> id: email] before any changes made
+17/03/2018 19:29:03 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (8E944F01-8B1C-4FEE-B53D-88CFB1F13B90)] -> id: email]
+17/03/2018 19:29:03 abc Raja is set to Email
+17/03/2018 19:29:03 abc Trying to find Element By : By.id: pass
+17/03/2018 19:29:03 abc Found Element By : By.id: pass
+17/03/2018 19:29:03 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (8E944F01-8B1C-4FEE-B53D-88CFB1F13B90)] -> id: pass] before any changes made
+17/03/2018 19:29:03 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (8E944F01-8B1C-4FEE-B53D-88CFB1F13B90)] -> id: pass]
+17/03/2018 19:29:03 abc testing is set to Password
+17/03/2018 19:29:05 abc From Listener Class -- > Method FaceBook_Login is Failed From Test FaceBook_Login
+17/03/2018 19:29:05 abc ***Placed screen shot in Screen_Shots/FaceBook_Login_2018_Mar_17_19_29_05_PM ***
+17/03/2018 19:29:05 abc Method ScreenShotTest is Finished
+17/03/2018 19:30:26 abc Method ScreenShotTest is Started
+17/03/2018 19:30:26 abc Method Test is Started
+17/03/2018 19:30:26 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 19:30:26 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 19:30:28 abc Before navigating to: 'https://www.facebook.com'
+17/03/2018 19:30:30 abc Navigated to:'https://www.facebook.com'
+17/03/2018 19:30:32 abc Trying to find Element By : By.id: email
+17/03/2018 19:30:32 abc Found Element By : By.id: email
+17/03/2018 19:30:32 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (3E1A6CF1-4A6C-49C1-9A56-91251791001F)] -> id: email] before any changes made
+17/03/2018 19:30:32 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (3E1A6CF1-4A6C-49C1-9A56-91251791001F)] -> id: email]
+17/03/2018 19:30:32 abc Raja is set to Email
+17/03/2018 19:30:32 abc Trying to find Element By : By.id: pass
+17/03/2018 19:30:32 abc Found Element By : By.id: pass
+17/03/2018 19:30:32 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (3E1A6CF1-4A6C-49C1-9A56-91251791001F)] -> id: pass] before any changes made
+17/03/2018 19:30:33 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (3E1A6CF1-4A6C-49C1-9A56-91251791001F)] -> id: pass]
+17/03/2018 19:30:33 abc testing is set to Password
+17/03/2018 19:30:35 abc From Listener Class -- > Method FaceBook_Login is Failed From Test FaceBook_Login
+17/03/2018 19:30:35 abc ***Placed screen shot in Screen_Shots/FaceBook_Login_2018_Mar_17_19_30_35_PM ***
+17/03/2018 19:30:35 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 19:30:35 abc Method downLoadFile is Skipped From Test downLoadFile
+17/03/2018 19:30:35 abc Method selectAutomationTool is Skipped From Test selectAutomationTool
+17/03/2018 19:30:35 abc Method selectContinents is Skipped From Test selectContinents
+17/03/2018 19:30:35 abc Method selectProfession is Skipped From Test selectProfession
+17/03/2018 19:30:35 abc Method selectSeleniumCommands is Skipped From Test selectSeleniumCommands
+17/03/2018 19:30:35 abc Method setDate is Skipped From Test setDate
+17/03/2018 19:30:35 abc Method upLoadFile is Skipped From Test upLoadFile
+17/03/2018 19:30:35 abc Method setFirstName is Passed From Test setFirstName
+17/03/2018 19:30:35 abc Method ScreenShotTest is Finished
+17/03/2018 19:30:35 abc From Listener Class -- > Method setFirstName is Failed From Test setFirstName
+17/03/2018 19:30:35 abc ***Placed screen shot in Screen_Shots/setFirstName_2018_Mar_17_19_30_35_PM ***
+17/03/2018 19:30:35 abc Method setLastName is Passed From Test setLastName
+17/03/2018 19:30:35 abc From Listener Class -- > Method setLastName is Failed From Test setLastName
+17/03/2018 19:30:35 abc ***Placed screen shot in Screen_Shots/setLastName_2018_Mar_17_19_30_35_PM ***
+17/03/2018 19:30:35 abc Method selectSex is Skipped From Test selectSex
+17/03/2018 19:30:35 abc Method selectYearsOfExperience is Skipped From Test selectYearsOfExperience
+17/03/2018 19:30:35 abc Method Test is Finished
+17/03/2018 19:37:26 abc Method ScreenShotTest is Started
+17/03/2018 19:37:26 abc Method Test is Started
+17/03/2018 19:37:26 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 19:37:26 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 19:37:27 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 19:37:27 abc Method ScreenShotTest is Finished
+17/03/2018 19:37:32 abc From Listener Class -- > Method LaunchBrowser is Failed From Test LaunchBrowser
+17/03/2018 19:37:32 abc From Listener Class -- > Method LaunchBrowser is Failed From Test LaunchBrowser
+17/03/2018 19:37:32 abc Method Test is Finished
+17/03/2018 19:39:20 abc Method Test is Started
+17/03/2018 19:39:20 abc Method ScreenShotTest is Started
+17/03/2018 19:39:20 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 19:39:20 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 19:39:22 abc Before navigating to: 'https://www.facebook.com'
+17/03/2018 19:39:25 abc Navigated to:'https://www.facebook.com'
+17/03/2018 19:39:27 abc Trying to find Element By : By.id: email
+17/03/2018 19:39:27 abc Found Element By : By.id: email
+17/03/2018 19:39:27 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (632736CF-F39E-4019-9A49-A80635961A91)] -> id: email] before any changes made
+17/03/2018 19:39:27 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (632736CF-F39E-4019-9A49-A80635961A91)] -> id: email]
+17/03/2018 19:39:27 abc Raja is set to Email
+17/03/2018 19:39:27 abc Trying to find Element By : By.id: pass
+17/03/2018 19:39:27 abc Found Element By : By.id: pass
+17/03/2018 19:39:27 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (632736CF-F39E-4019-9A49-A80635961A91)] -> id: pass] before any changes made
+17/03/2018 19:39:27 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (632736CF-F39E-4019-9A49-A80635961A91)] -> id: pass]
+17/03/2018 19:39:27 abc testing is set to Password
+17/03/2018 19:39:28 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 19:39:28 abc Method downLoadFile is Skipped From Test downLoadFile
+17/03/2018 19:39:28 abc Method selectAutomationTool is Skipped From Test selectAutomationTool
+17/03/2018 19:39:28 abc Method selectContinents is Skipped From Test selectContinents
+17/03/2018 19:39:28 abc Method selectProfession is Skipped From Test selectProfession
+17/03/2018 19:39:28 abc Method selectSeleniumCommands is Skipped From Test selectSeleniumCommands
+17/03/2018 19:39:28 abc Method setDate is Skipped From Test setDate
+17/03/2018 19:39:28 abc Method upLoadFile is Skipped From Test upLoadFile
+17/03/2018 19:39:28 abc Method setFirstName is Passed From Test setFirstName
+17/03/2018 19:39:28 abc Method setFirstName is Passed From Test setFirstName
+17/03/2018 19:39:28 abc Method setLastName is Passed From Test setLastName
+17/03/2018 19:39:28 abc Method setLastName is Passed From Test setLastName
+17/03/2018 19:39:28 abc Method selectSex is Skipped From Test selectSex
+17/03/2018 19:39:28 abc Method selectYearsOfExperience is Skipped From Test selectYearsOfExperience
+17/03/2018 19:39:28 abc Method Test is Finished
+17/03/2018 19:39:29 abc From Listener Class -- > Method FaceBook_Login is Failed From Test FaceBook_Login
+17/03/2018 19:39:29 abc ***Placed screen shot in Screen_Shots/FaceBook_Login_2018_Mar_17_19_39_29_PM ***
+17/03/2018 19:39:29 abc Method ScreenShotTest is Finished
+17/03/2018 19:50:30 abc Method Test is Started
+17/03/2018 19:50:30 abc Method ScreenShotTest is Started
+17/03/2018 19:50:30 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 19:50:30 abc Method FaceBook_Login is Passed From Test FaceBook_Login
+17/03/2018 19:50:33 abc Before navigating to: 'https://www.facebook.com'
+17/03/2018 19:50:35 abc Navigated to:'https://www.facebook.com'
+17/03/2018 19:50:37 abc Trying to find Element By : By.id: email
+17/03/2018 19:50:37 abc Found Element By : By.id: email
+17/03/2018 19:50:37 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (651FB813-62F5-49DC-A60A-AC91DF140945)] -> id: email] before any changes made
+17/03/2018 19:50:37 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (651FB813-62F5-49DC-A60A-AC91DF140945)] -> id: email]
+17/03/2018 19:50:37 abc Raja is set to Email
+17/03/2018 19:50:37 abc Trying to find Element By : By.id: pass
+17/03/2018 19:50:37 abc Found Element By : By.id: pass
+17/03/2018 19:50:37 abc Value of the:[[EdgeDriver: MicrosoftEdge on ANY (651FB813-62F5-49DC-A60A-AC91DF140945)] -> id: pass] before any changes made
+17/03/2018 19:50:37 abc Element value changed to: [[EdgeDriver: MicrosoftEdge on ANY (651FB813-62F5-49DC-A60A-AC91DF140945)] -> id: pass]
+17/03/2018 19:50:37 abc testing is set to Password
+17/03/2018 19:50:39 abc From Listener Class -- > Method FaceBook_Login is Failed From Test FaceBook_Login
+17/03/2018 19:50:39 abc ***Placed screen shot in Screen_Shots/FaceBook_Login_2018_Mar_17_19_50_39_PM ***
+17/03/2018 19:50:39 abc Method ScreenShotTest is Finished
+17/03/2018 19:50:40 abc Method LaunchBrowser is Passed From Test LaunchBrowser
+17/03/2018 19:50:40 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 19:50:45 abc Method downLoadFile is Passed From Test downLoadFile
+17/03/2018 19:50:45 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 19:50:45 abc Method selectAutomationTool is Passed From Test selectAutomationTool
+17/03/2018 19:50:45 abc Method selectContinents is Passed From Test selectContinents
+17/03/2018 19:50:45 abc Method selectContinents is Passed From Test selectContinents
+17/03/2018 19:50:45 abc Method selectProfession is Passed From Test selectProfession
+17/03/2018 19:50:45 abc Method selectProfession is Passed From Test selectProfession
+17/03/2018 19:50:45 abc Method selectSeleniumCommands is Passed From Test selectSeleniumCommands
+17/03/2018 19:50:45 abc Method selectSeleniumCommands is Passed From Test selectSeleniumCommands
+17/03/2018 19:50:45 abc Method setDate is Passed From Test setDate
+17/03/2018 19:50:45 abc Method setDate is Passed From Test setDate
+17/03/2018 19:50:45 abc Method upLoadFile is Passed From Test upLoadFile
+17/03/2018 19:50:48 abc Method upLoadFile is Passed From Test upLoadFile
+17/03/2018 19:50:48 abc Method setFirstName is Passed From Test setFirstName
+17/03/2018 19:50:48 abc Method setFirstName is Passed From Test setFirstName
+17/03/2018 19:50:48 abc Method setLastName is Passed From Test setLastName
+17/03/2018 19:50:48 abc Method setLastName is Passed From Test setLastName
+17/03/2018 19:50:48 abc Method selectSex is Passed From Test selectSex
+17/03/2018 19:50:48 abc Method selectSex is Passed From Test selectSex
+17/03/2018 19:50:48 abc Method selectYearsOfExperience is Passed From Test selectYearsOfExperience
+17/03/2018 19:50:48 abc Method selectYearsOfExperience is Passed From Test selectYearsOfExperience
+17/03/2018 19:50:48 abc Method Test is Finished
+17/03/2018 19:52:53 abc Method Test Grouping is Started
+17/03/2018 19:52:53 abc Method Car1 is Passed From Test Car1
+17/03/2018 19:52:53 abc Method Car1 is Passed From Test Car1
+17/03/2018 19:52:53 abc Method Car2 is Passed From Test Car2
+17/03/2018 19:52:53 abc Method Car2 is Passed From Test Car2
+17/03/2018 19:52:53 abc Method Sedan1 is Passed From Test Sedan1
+17/03/2018 19:52:53 abc Method Sedan1 is Passed From Test Sedan1
+17/03/2018 19:52:53 abc Method testTestAnnotation is Passed From Test testTestAnnotation
+17/03/2018 19:52:53 abc From Listener Class -- > Method testTestAnnotation is Failed From Test testTestAnnotation
+17/03/2018 19:52:53 abc From Listener Class -- > Method testTestAnnotation is Failed From Test testTestAnnotation
+17/03/2018 19:52:53 abc Method Test Grouping is Finished
+17/03/2018 19:54:18 abc Method Test Grouping is Started
+17/03/2018 19:54:18 abc Method Car1 is Passed From Test Car1
+17/03/2018 19:54:18 abc Method Car1 is Passed From Test Car1
+17/03/2018 19:54:18 abc Method Car2 is Passed From Test Car2
+17/03/2018 19:54:18 abc Method Car2 is Passed From Test Car2
+17/03/2018 19:54:18 abc Method Sedan1 is Passed From Test Sedan1
+17/03/2018 19:54:18 abc Method Sedan1 is Passed From Test Sedan1
+17/03/2018 19:54:18 abc Method testTestAnnotation is Passed From Test testTestAnnotation
+17/03/2018 19:54:18 abc From Listener Class -- > Method testTestAnnotation is Failed From Test testTestAnnotation
+17/03/2018 19:54:18 abc From Listener Class -- > Method testTestAnnotation is Failed From Test testTestAnnotation
+17/03/2018 19:54:19 abc Method Test Grouping is Finished

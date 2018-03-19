@@ -1,0 +1,32 @@
+<suite name="Suite">
+    <test name="Test Grouping">
+  <!--  <groups>
+	    <run>
+		<include name="Car" />
+	    </run>
+	</groups> -->
+	
+	<!-- <groups>
+	    <run>
+		<include name="Scooter" />
+	    </run>
+	</groups> -->
+	
+	
+	<define name = "Everything">
+		<include name="Car"></include>
+		<include name="Scooter"></include>
+	</define>
+	<groups>
+	    <run>
+		<include name="Car" />
+	    </run>
+	</groups>     
+	 
+	<classes>
+	    <class name="testNG_Examples.Group_Test" />
+	    <class name="testNG_Examples.HelloWorld" />
+	    <class name="testNG_Examples.Sample_Class" />
+	</classes>
+    </test>
+</suite>

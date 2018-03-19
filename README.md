@@ -30,4 +30,7 @@ It is ready to run from Jenkins. Jenkins Job was configured and the name is : Se
 It is running as testNG and Maven. It will take screenshot for test method failures. It is a good one for selenium training
 Latest Drivers are available at D:\Selenium_Drivers
 
+18-March-2018 
 
+Selenium_FrameWork_Training - Project is added
+This project is updated for Email configuration also. Emails are successfully sent with attachments.
