@@ -41,6 +41,7 @@ Email_With_Attachment_Jenkins_Documents - This document explains the process to 
 
 EclipseToSoap - This project is used to load Soap UI Project in Eclipse. 
 Eclipse To Soap.docx has the procedure. It has the list of Jars required for the same. Please refer this document in Procedure folder.
+<Soap Installation Folder>/lib should be added in Reference Library.
 =======
 
 04/08/2018 - Web Hook Testing
