@@ -1,0 +1,4 @@
+2018-04-15 14:18:20,038 WARN  [SoapUI] Missing folder [C:\WorkSpace\EclipseToSoap\.\ext] for external libraries
+2018-04-15 14:18:20,216 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Raja\soapui-settings.xml]
+2018-04-15 14:18:20,539 INFO  [WsdlProject] Loaded project from [file:/D:/Soap_Project/Calculator-soapui-project.xml]
+2018-04-15 14:18:20,549 WARN  [WsdlProject] Project 'Calculator' is from a newer version (5.4.0) of soapUI than this (4.0.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.

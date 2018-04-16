@@ -34,3 +34,9 @@ Latest Drivers are available at D:\Selenium_Drivers
 
 Selenium_FrameWork_Training - Project is added
 This project is updated for Email configuration also. Emails are successfully sent with attachments.
+Email_With_Attachment_Jenkins_Documents - This document explains the process to setup email settings for Jenkins Job with attachment.
+
+16-Apr-2018
+
+EclipseToSoap - This project is used to load Soap UI Project in Eclipse. 
+Eclipse To Soap.docx has the procedure. It has the list of Jars required for the same. Please refer this document in Procedure folder.

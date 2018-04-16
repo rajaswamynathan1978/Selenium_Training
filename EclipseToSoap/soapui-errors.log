@@ -1,0 +1,58 @@
+2018-04-14 22:35:25,269 ERROR [errorlog] java.net.MalformedURLException: unknown protocol: d
+java.net.MalformedURLException: unknown protocol: d
+	at java.net.URL.<init>(URL.java:600)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:251)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:188)
+	at com.raja.eclipsetosoap.EclipseToSoap.CallSoapProject.main(CallSoapProject.java:8)
+2018-04-14 22:35:59,533 ERROR [errorlog] java.net.MalformedURLException: unknown protocol: d
+java.net.MalformedURLException: unknown protocol: d
+	at java.net.URL.<init>(URL.java:600)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:251)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:188)
+	at com.raja.eclipsetosoap.EclipseToSoap.CallSoapProject.main(CallSoapProject.java:8)
+2018-04-14 22:36:24,810 ERROR [errorlog] java.net.MalformedURLException: unknown protocol: d
+java.net.MalformedURLException: unknown protocol: d
+	at java.net.URL.<init>(URL.java:600)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:251)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:188)
+	at com.raja.eclipsetosoap.EclipseToSoap.CallSoapProject.main(CallSoapProject.java:8)
+2018-04-14 22:38:02,066 ERROR [errorlog] java.net.MalformedURLException: unknown protocol: d
+java.net.MalformedURLException: unknown protocol: d
+	at java.net.URL.<init>(URL.java:600)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:251)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:188)
+	at com.raja.eclipsetosoap.EclipseToSoap.CallSoapProject.main(CallSoapProject.java:10)
+2018-04-14 22:38:49,084 ERROR [errorlog] java.net.MalformedURLException: unknown protocol: d
+java.net.MalformedURLException: unknown protocol: d
+	at java.net.URL.<init>(URL.java:600)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:251)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:188)
+	at com.raja.eclipsetosoap.EclipseToSoap.CallSoapProject.main(CallSoapProject.java:10)
+2018-04-14 22:41:00,990 ERROR [errorlog] java.net.MalformedURLException: unknown protocol: d
+java.net.MalformedURLException: unknown protocol: d
+	at java.net.URL.<init>(URL.java:600)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:251)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:188)
+	at com.raja.eclipsetosoap.EclipseToSoap.CallSoapProject.main(CallSoapProject.java:10)
+2018-04-14 22:55:50,497 ERROR [errorlog] java.net.MalformedURLException: unknown protocol: d
+java.net.MalformedURLException: unknown protocol: d
+	at java.net.URL.<init>(URL.java:600)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:251)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:203)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:198)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:183)
+	at com.raja.eclipsetosoap.EclipseToSoap.CallSoapProject.main(CallSoapProject.java:26)
