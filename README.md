@@ -46,3 +46,6 @@ Eclipse To Soap.docx has the procedure. It has the list of Jars required for the
 
 04/08/2018 - Web Hook Testing
 >>>>>>> 9a2d58a0cb7696273ce88b94b8b885b18f86b132
+
+07-18-2018 - Protractor Training
+This Framework is completed with Parameterization.
