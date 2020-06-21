@@ -1,5 +1,13 @@
+<<<<<<< HEAD
+Feature: Login Action - From Practice Branch
+ myName = Sai Aswin R
+||||||| 631b2b4
+Feature: Login Action - From Learn Branch
+ 
+=======
 Feature: Login Action - From Learn Branch
  myName = Sai Aswin Raja
+>>>>>>> learn
 Scenario: Successful Login with Valid Credentials
  Given User is on Home Page
  When User Navigate to LogIn Page
