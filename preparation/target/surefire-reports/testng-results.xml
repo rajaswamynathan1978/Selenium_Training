@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4840" started-at="2021-03-25T02:33:21Z" finished-at="2021-03-25T02:33:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4840" started-at="2021-03-25T02:33:21Z" finished-at="2021-03-25T02:33:26Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="getBrowser(java.lang.String)[pri:0, instance:tests.LoginTest@62043840]" name="getBrowser" is-config="true" duration-ms="2952" started-at="2021-03-25T02:33:21Z" finished-at="2021-03-25T02:33:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="performLogin(java.lang.String)[pri:0, instance:tests.LoginTest@62043840]" name="performLogin" duration-ms="1870" started-at="2021-03-25T02:33:24Z" finished-at="2021-03-25T02:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
